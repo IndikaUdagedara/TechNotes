@@ -44,16 +44,17 @@
 		  ```
 		- commits in A and B  
 		  ```
-		  
 		  $ git log A...B  
 		  1  
 		  2  
 		  3  
 		  4
 		  ```
-		- # common ancestor in two branches (branch point)  
+		- common ancestor in two branches (branch point)
+		  ```
 		  $ git merge-base A B  
 		  5
+		  ```
 	- changes on a specific file  
 	  `git log --follow <filename>`
 	- only file names
