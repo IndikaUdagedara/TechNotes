@@ -64,12 +64,18 @@
 	  ``git checkout .``
 	- delete untracked files  
 	  `git clean -f`
-	- # delete untracked dir  
-	  git clean -d
-	- # delte branch  
+	- delete untracked dir  
+	  `git clean -d`
+	- delete branch  
+	  ```
 	  git branch -D feat  
 	  git push origin :feat # delete remote  
 	  git push origin --delete feat
+	  ```
+	- undo last commit  
+	  `git reset --hard HEAD~1`
+	- revert merge commit  
+	  `git revert -m 1 <commit>`
 	- ```
 	  
 	  
