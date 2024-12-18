@@ -11,7 +11,7 @@
 	- Ctrl + a: move to line begin
 	- Ctrl + e: move to line end
 - ## General
-	- Cmd +  `` ` `` : Iterate windows of an app￼￼
+	- Cmd +  `` ` `` : Iterate windows of an app
 	- Cmd + m: Minimize
 	- ~~?? : Maximize~~
 	- Cmd + Ctrl + F: Full screen on/off
