@@ -62,14 +62,16 @@
 - ## Branching
 	- Check all merged branches
 	  `git branch --merged | egrep -v "(^\*|master|develop)`
-	- # delete local branch  
-	  git branch --delete <branch>
-	- # delete remote tracking branch  
-	  git branch -dr origin/<branch>
-	- # delete remote branch  
-	  git push origin --delete <branch>
-	- # do all the above  
+	- delete local branch  
+	  `git branch --delete <branch>`
+	- delete remote tracking branch  
+	  `git branch -dr origin/<branch>`
+	- delete remote branch  
+	  `git push origin --delete <branch>`
+	- do all the above  
+	  ```
 	  for i in `git branch --merged | egrep -v "(^\*|master|develop)"`; do git branch --delete $i; git branch -dr origin/$i; git push origin --delete $i; done
+	  ```
 - ## Cleanup
 	- revert changes on local copy  
 	  ``git checkout .``
@@ -87,48 +89,5 @@
 	  `git reset --hard HEAD~1`
 	- revert merge commit  
 	  `git revert -m 1 <commit>`
-	- ```
-	  
-	  
-	  
-	  
-	  
-	  
-	  ## undo last commit  
-	  git reset --hard HEAD~1
-	  
-	  ## revert merge commit  
-	  git revert -m 1 <commit>
-	  
-	  
-	  ### branching  
-	  # move branch to an old commit  
-	  git branch -f branch-name new-tip-commit  
-	  git push -f origin branch-name
-	  
-	  q
-	  
-	  # merged branches to the current  
-	  git branch --merged | egrep -v "(^\*|master|develop)
-	  
-	  # delete local branch  
-	  git branch --delete <branch>
-	  
-	  # delete remote tracking branch  
-	  git branch -dr origin/<branch>
-	  
-	  # delete remote branch  
-	  git push origin --delete <branch>
-	  
-	  # do all the above  
-	  for i in `git branch --merged | egrep -v "(^\*|master|develop)"`; do git branch --delete $i; git branch -dr origin/$i; git push origin --delete $i; done
-	  
-	  ### rename  
-	  git branch -m old_branch_name new_branch_name  
-	  git push -u origin new_branch_name
-	  
-	  # delete old branch in remote  
-	  git push origin :old_branch_name
-	  ```
 - ## GitLab flow
 - ![GitLab_Flow.png](../assets/GitLab_Flow.png)
