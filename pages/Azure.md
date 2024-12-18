@@ -48,55 +48,55 @@
 					- Can peer with a vnet using
 						- Private Peering: Express Route GW is created in the Subnet, Transitive routing is supported e.g. Express Route to vnet A can talk to vnet B if A and B are peered
 						- Microsoft Peering: When Private Link needs to talk to non-vnet resources e.g.
-- **Service Endpoints**
-	- Trust subnets to Azure services e.g. Storage Account
-- **Private Endpoints**
-	- Private IP to Azure service
--
-- **Storage Accounts**
-	- Are created in a region
-	- Types:
-		- Standard: General Purpose
-		- Premium types:
-			- Page Blob:
-			- Block Blob:
-			- File share
-	- **Redundancy levels**
-		- LRS - local redundant: 3 copies in single AZ
-		- ZRS - zone redundant: 3 copies in 3 AZs
-		- GRS - geo redundant: 3 copies in 1 AZ in region and replicated to paired region
-		- GZRS - geo-zone redundant: 3 copies in 3 AZs in region and replicated to paired region   
-		  
-		  Standard: has all redundancy levels  
-		  Premium: has LRS and ZRS only
-	- **Blob**
-		- Premium SSD
-		- Standard SSD
-		- Standard HDD
-		- Ultra Disk (SSD): IOPS, Throughput can be custom set
-		- SMB
-		- NFS
-	- **Queue**
-		- FIFO queue
-	- **Tables**
-		- Key/Value schema-less storage
+	- **Service Endpoints**
+		- Trust subnets to Azure services e.g. Storage Account
+	- **Private Endpoints**
+		- Private IP to Azure service
 	-
-- **Databases**
-	- Azure SQL DB: Managed, doesn't run in your vnet, multi-tenanted
-	- Azure SQL Managed Instance: Managed, runs in your vnet. Has more compatibility features with MSSQL standalone e.g. SQL Agent, use CLR
-	- **Azure Managed DB**
-		- Postgres
-		- Mysql
-		- MariaDB
-	- **DB Hyperscale**
-		- Multiple servers share load by sharding data
-		- Azure SQL DB has hyperscale**
-	- **Cosmos DB**
-		- Born in the cloud, suitable for 'cloud' apps
-		- Supports multiple data models (all no-SQL)
-			- Document
-			- Column
-			- Table (key/value)
+	- **Storage Accounts**
+		- Are created in a region
+		- Types:
+			- Standard: General Purpose
+			- Premium types:
+				- Page Blob:
+				- Block Blob:
+				- File share
+		- **Redundancy levels**
+			- LRS - local redundant: 3 copies in single AZ
+			- ZRS - zone redundant: 3 copies in 3 AZs
+			- GRS - geo redundant: 3 copies in 1 AZ in region and replicated to paired region
+			- GZRS - geo-zone redundant: 3 copies in 3 AZs in region and replicated to paired region   
+			  
+			  Standard: has all redundancy levels  
+			  Premium: has LRS and ZRS only
+		- **Blob**
+			- Premium SSD
+			- Standard SSD
+			- Standard HDD
+			- Ultra Disk (SSD): IOPS, Throughput can be custom set
+			- SMB
+			- NFS
+		- **Queue**
+			- FIFO queue
+		- **Tables**
+			- Key/Value schema-less storage
+		-
+	- **Databases**
+		- Azure SQL DB: Managed, doesn't run in your vnet, multi-tenanted
+		- Azure SQL Managed Instance: Managed, runs in your vnet. Has more compatibility features with MSSQL standalone e.g. SQL Agent, use CLR
+		- **Azure Managed DB**
+			- Postgres
+			- Mysql
+			- MariaDB
+		- **DB Hyperscale**
+			- Multiple servers share load by sharding data
+			- Azure SQL DB has hyperscale**
+		- **Cosmos DB**
+			- Born in the cloud, suitable for 'cloud' apps
+			- Supports multiple data models (all no-SQL)
+				- Document
+				- Column
+				- Table (key/value)
 -
 - ## Certificates
 	- ### Administrator Associate
