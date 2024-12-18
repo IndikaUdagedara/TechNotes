@@ -103,7 +103,7 @@
 		- https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification
 		- **Cloud Shell**
 			- Browser accessible AZ CLI with Powershell modules
-			- Has an inbuilt editor
+			- Has an inbuilt editor - VS Code
 			- When you open a Cloud Shell session, a temporary host is allocated to your session. This VM is preconfigured with the latest versions of PowerShell and Bash.
 			- **Azure CloudDrive** - storage of Cloud Shell
 -
