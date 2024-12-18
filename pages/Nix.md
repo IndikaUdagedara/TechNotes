@@ -101,8 +101,8 @@
   `nix shell nixpkgs/4ae2e647537bcdbb82265469442713d066675275#azure-cli`
 - Repair cache
   `nix-store --verify --check-contents --repair`
-	- Garbage collect
-	  `nix-collect-garbage -d`
+- Garbage collect
+  `nix-collect-garbage -d`
 - Find what are the deps of an executable
   `nix-store --query --tree $(which cowsay) | cat`
 - Load flake to repl using `:lf`
@@ -114,10 +114,10 @@
   nix-repl> :lf ~/Nix
   nix-repl> inputs
   {
-  home-manager = { ... };
-  nix-darwin = { ... };
-  nixpkgs = { ... };
-  nixpkgs-unstable = { ... };
+    home-manager = { ... };
+    nix-darwin = { ... };
+    nixpkgs = { ... };
+    nixpkgs-unstable = { ... };
   }
   ```
 - Load nix lib using repl
