@@ -115,6 +115,7 @@
 				- no `sudo`
 				- multi-region storage
 				- multiple sessions - only 1 can be active at one time
-		- Familiarity with
+		- **Familiarity with**
 			- [[bash]]
-			-
+			- [[Powershell]]
+-
