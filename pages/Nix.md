@@ -111,7 +111,7 @@
   nix-repl> :lf ./path/to/flake/dir
   
   # e.g. 
-  nix-repl> :lf ./Settings/nix
+  nix-repl> :lf ~/Nix
   nix-repl> inputs
   {
   home-manager = { ... };
