@@ -101,10 +101,9 @@
 - ## Certificates
 	- ### Administrator Associate
 		- https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification
-		- Cloud Shell
+		- **Cloud Shell**
 			- Browser accessible AZ CLI with Powershell modules
-			- Has cloud storage
 			- Has an inbuilt editor
 			- When you open a Cloud Shell session, a temporary host is allocated to your session. This VM is preconfigured with the latest versions of PowerShell and Bash.
-			-
+			- **Azure CloudDrive** - storage of Cloud Shell
 -
