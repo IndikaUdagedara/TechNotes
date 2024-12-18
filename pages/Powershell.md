@@ -1,8 +1,8 @@
 ## Basics
 	- cmdlets follow `<Verb>-<Noun>` pattern
-	-
-	- {{embed ((67625b9b-6c4f-4a9a-9151-7a9737914547))}}
-	- {{embed ((67625ba8-0194-48a1-b6ed-931e3148a08e))}}
+	- Commands
+		- {{embed ((67625b9b-6c4f-4a9a-9151-7a9737914547))}}
+		- {{embed ((67625ba8-0194-48a1-b6ed-931e3148a08e))}}
 	- `Get-Command`: List available cmdlets
 		- `Get-Command -Noun xyz*`: Search for a command that has a noun starting with `xyz`
 	- `Get-Help`
