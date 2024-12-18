@@ -5,7 +5,8 @@
 	  `git update-index --no-assume-unchanged [<file> ...]
 	- show changes in commit  
 	  `git show <commit>`
--
+- ## Hooks
+	- {{embed ((67622838-4f66-43e8-9a85-3aceead898ee))}}
 - ## Submodules
 	- add submodule
 	  `git submodule add git://…`
