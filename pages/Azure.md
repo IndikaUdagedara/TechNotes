@@ -104,5 +104,6 @@
 		- Cloud Shell
 			- Browser accessible AZ CLI with Powershell modules
 			- Has cloud storage
+			- Has an inbuilt editor
 			-
 -
