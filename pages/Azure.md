@@ -120,5 +120,7 @@
 		- **Familiarity with**
 			- [[bash]]
 			- [[Powershell]]
+		- **Entra ID**
+			- Free tier automatically provisioned when creating a new subscription
 		-
 -
