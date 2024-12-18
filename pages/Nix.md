@@ -107,7 +107,7 @@
   `nix-store --query --tree $(which cowsay) | cat`
 - Load flake to repl using `:lf`
   ```
-  nix repl
+  $ nix repl
   nix-repl> :lf ./path/to/flake/dir
   
   # e.g. 
