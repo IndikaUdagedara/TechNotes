@@ -1,5 +1,9 @@
-## Gestures
-	- {{embed ((6762c2ad-dae5-4d42-a558-410c746d5672))}}
+## Desktops
+	- 3-finger swipe
+		- up: Show Workspaces/Desktops
+		- down: Select Desktop
+		- left/right: move between
+	- Ctrl + <num
 - ## Terminal
 	- Ctrl + tab Switch tabs
 	- Ctrl + opt + delete: Delete word back
