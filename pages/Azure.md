@@ -101,5 +101,8 @@
 - ## Certificates
 	- ### Administrator Associate
 		- https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification
-		-
+		- Cloud Shell
+			- Browser accessible AZ CLI with Powershell modules
+			- Has cloud storage
+			-
 -
