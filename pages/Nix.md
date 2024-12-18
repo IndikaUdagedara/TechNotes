@@ -134,7 +134,7 @@
   nix develop <flake_dir>.#<shell_name>
   
   # e.g., 
-  nix develop ~/Settings/nix/.#python
+  nix develop ~/Nix/.#python
   ```
 -
 - ## References
