@@ -4,6 +4,7 @@
 		- down: Select Desktop
 		- left/right: move between
 	- Ctrl + <num>: Select Desktop <num> **(Must enable in keyboard shortcuts)**
+	- Ctrl + left/right: move between
 - ## Terminal
 	- Ctrl + tab Switch tabs
 	- Ctrl + opt + delete: Delete word back
@@ -13,7 +14,6 @@
 - ## General
 	- Cmd +  `` ` `` : Iterate windows of an app
 	- Cmd + m: Minimize
-	- ~~?? : Maximize~~
 	- Cmd + Ctrl + F: Full screen on/off
 	- Cmd + Ctrl + Shift + 4 : Snip tool and copy to clipboard
 	- Cmd + Opt + Click app: Hide other apps except app
