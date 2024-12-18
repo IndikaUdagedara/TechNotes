@@ -1,17 +1,17 @@
-- Ignore tracked files
-  `git update-index --assume-unchanged [<file> ...]`
-- To undo and start tracking again
-  `git update-index --no-assume-unchanged [<file> ...]
-- show changes in commit  
-  `git show <commit>`
+## Index
+	- Ignore tracked files
+	  `git update-index --assume-unchanged [<file> ...]`
+	- To undo and start tracking again
+	  `git update-index --no-assume-unchanged [<file> ...]
+	- show changes in commit  
+	  `git show <commit>`
 -
-- ### submodules
+- ## Submodules
 	- add submodule
 	  `git submodule add git://…`
 	- clone project with submodules
 	  `git clone git://…`
 	- checkout submodule code
-	  
 	  `git submodule update --init`
 	  or
 	  `git clone --recurse-submodules git://…`
@@ -27,7 +27,8 @@
 	  ```
 	- get diff of submodule
 	  `git diff --submodule`
-- ### logs
+-
+- ## Logs
 	- Example
 	  ```
 	      1-2 A  
