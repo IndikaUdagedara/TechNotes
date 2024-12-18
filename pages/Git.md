@@ -30,12 +30,12 @@
 -
 - ## Logs
 	- Example
+	  collapsed:: true
 	  ```
 	      1-2 A  
 	     /  
 	  0-0-5-3-4 B
 	  ```
-	  ``
 		- commits only in B  
 		  ```
 		  $ git log A..B  
@@ -59,6 +59,8 @@
 	  `git log --follow <filename>`
 	- only file names
 	  `git log --name-only`
+- ## Branching
+	- Check `git branch --merged | egrep -v "(^\*|master|develop)`
 - ## Cleanup
 	- revert changes on local copy  
 	  ``git checkout .``
