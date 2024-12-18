@@ -1,4 +1,6 @@
-## Terminal
+## Gestures
+	- {{embed ((6762c2ad-dae5-4d42-a558-410c746d5672))}}
+- ## Terminal
 	- Ctrl + tab Switch tabs
 	- Ctrl + opt + delete: Delete word back
 	- Cmd + opt + left/right arrow: Move word￼￼
