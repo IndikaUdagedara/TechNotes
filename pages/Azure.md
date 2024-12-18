@@ -107,9 +107,8 @@
 			- When you open a Cloud Shell session, a temporary host is allocated to your session. This VM is preconfigured with the latest versions of PowerShell and Bash.
 			- **Azure CloudDrive** - storage of Cloud Shell
 			- Not suitable for
-				- long running scripts (e)
-				- You need admin permissions, such as sudo access, from within the Azure CLI or PowerShell environment.
-				- You need to install tools that aren't supported in the limited Cloud Shell environment, but instead require an environment such as a custom virtual machine or container.
-				- You need storage from different regions. You might need to back up and synchronize this content since only one region can have the storage allocated to Azure Cloud Shell.
-				- You need to open multiple sessions at the same time. Azure Cloud Shell allows only one instance at time and isn't suitable for concurrent work across multiple subscriptions or tenants.
+				- long running scripts (terminates after 20mins of inactivity)
+				- no `sudo`
+				- multi-region storage
+				- MulYou need to open multiple sessions at the same time. Azure Cloud Shell allows only one instance at time and isn't suitable for concurrent work across multiple subscriptions or tenants.
 -
