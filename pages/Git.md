@@ -59,77 +59,23 @@
 	  `git log --follow <filename>`
 	- only file names
 	  `git log --name-only`
-	  
-	  ```
-	  ### log graph  
-	  $ git log --graph --oneline --decorate --all
-	  
-	  # only filenames  
-	  
-	  
-	  $  git log --graph --oneline --all --decorate  
-	  * 904ed93 (HEAD -> feat) b1  
-	  * 0a642d0 (master) m3  
-	  * 339c07f m2  
-	  * 3e13e66 m1
-	  
-	  
-	  
-	  # list branches  
-	  git branch -a # all  
-	  git branch -r # remote  
-	  git branch # local
-	  
-	  # common ancestor in two branches (branch point)  
-	  $ git merge-base A B  
-	  5
-	  
-	  ### fast-forward  
-	  0 - 0 - 0         <- master  
-	         \  
-	          0 - 0   <- feature
-	  
-	  git checkout master  
-	  git merge feature                  
-	  
-	  0 - 0 - 0          
-	         \  
-	          0 - 0   <- feature <- master
-	  
-	  ### rebase
-	  
-	  $  git log --graph --oneline --all  
-	  * 0a642d0 (master) m3  
-	  | * 9203bad (HEAD -> feat) b1  
-	  |/  
-	  * 339c07f m2  
-	  * 3e13e66 m1
-	  
-	  $ git checkout feat  
-	  Switched to branch 'feat'
-	  
-	  $ git rebase master  
-	  First, rewinding head to replay your work on top of it...  
-	  Applying: b1
-	  
-	  ### config  
-	  [format]  
-	        pretty=format:"%C(auto)%h %an %ad %d %s"        
-	  
-	  ### cleanup  
-	  # revert changes on local copy  
-	  git checkout .         
-	  
-	  # delete untracked files  
-	  git clean -f
-	  
-	  # delete untracked dir  
+- ## Cleanup
+	- revert changes on local copy  
+	  ``git checkout .``
+	- delete untracked files  
+	  `git clean -f`
+	- # delete untracked dir  
 	  git clean -d
-	  
-	  # delte branch  
+	- # delte branch  
 	  git branch -D feat  
 	  git push origin :feat # delete remote  
 	  git push origin --delete feat
+	- ```
+	  
+	  
+	  
+	  
+	  
 	  
 	  ## undo last commit  
 	  git reset --hard HEAD~1
