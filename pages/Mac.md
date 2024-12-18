@@ -3,7 +3,7 @@
 		- up: Show Workspaces/Desktops
 		- down: Select Desktop
 		- left/right: move between
-	- Ctrl + <num
+	- Ctrl + <num>: Select Desktop <num> **(Must enable in keyboard shortcuts)**
 - ## Terminal
 	- Ctrl + tab Switch tabs
 	- Ctrl + opt + delete: Delete word back
