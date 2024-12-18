@@ -60,7 +60,16 @@
 	- only file names
 	  `git log --name-only`
 - ## Branching
-	- Check `git branch --merged | egrep -v "(^\*|master|develop)`
+	- Check all merged branches
+	  `git branch --merged | egrep -v "(^\*|master|develop)`
+	- # delete local branch  
+	  git branch --delete <branch>
+	- # delete remote tracking branch  
+	  git branch -dr origin/<branch>
+	- # delete remote branch  
+	  git push origin --delete <branch>
+	- # do all the above  
+	  for i in `git branch --merged | egrep -v "(^\*|master|develop)"`; do git branch --delete $i; git branch -dr origin/$i; git push origin --delete $i; done
 - ## Cleanup
 	- revert changes on local copy  
 	  ``git checkout .``
