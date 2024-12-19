@@ -8,7 +8,7 @@
 - ## Terminal
 	- Ctrl + tab Switch tabs
 	- Ctrl + opt + delete: Delete word back
-	- Cmd + opt + left/right arrow: Move word￼￼
+	- Cmd + opt + left/right arrow: Move word
 	- Ctrl + a: move to line begin
 	- Ctrl + e: move to line end
 - ## General
