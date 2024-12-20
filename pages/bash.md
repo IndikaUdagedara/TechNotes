@@ -18,8 +18,6 @@
 		  ```
 	- Set docker socket
 	  `export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
-	  
-	  ---
 - ## tmux
 - Save sessions: `<prefix>+s`
 - Restore sessions: `<prefix>+r`
