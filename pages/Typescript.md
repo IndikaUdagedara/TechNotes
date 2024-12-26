@@ -2,7 +2,7 @@
 
 ```ts
 async function worker() {
-	...
+...
 }
 
 worker().catch((err) => {
