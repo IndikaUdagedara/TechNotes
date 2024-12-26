@@ -11,7 +11,7 @@ worker().catch((err) => {
 
 ```
 - Install [tsx](https://www.npmjs.com/package/tsx)
-- Run `tsx worker.ts`
+- Run `tsx worker.ts` or `tsx --watch worker.ts`
 - ## tsconfig
 	- `compilerOptions`
 		- `target` - which JS language specification should TS be transpiled into
