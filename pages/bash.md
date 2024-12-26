@@ -1,5 +1,3 @@
-
-
 - Clean shell cache `hash -r`
 - Find where command is in path `type -a vim`
 - mediaserver
