@@ -1,6 +1,6 @@
 
 
-- `F12`:  Go to definition
+- `cmd+F12`:  Go to implementation
 - `ctrl+-` : Go to the caller (out of function navigated by F12)
 - [[Vim]]
 	- `ctrl+o` : Go back
