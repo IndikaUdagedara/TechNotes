@@ -3,9 +3,9 @@
 - `let ... in ...` similar to _local variables_ - name `a` can be used in the `in` expression
   ```
   let
-  a = 1;
+  	a = 1;
   in
-  a + a
+  	a + a
   ```
 - `with ...; ...` access attr set with specifying the parent
   
