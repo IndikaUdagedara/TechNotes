@@ -37,5 +37,17 @@
                                    :height 951.30521441514}),
                           :page 34},
                :content {:text "'L' LED as this is ho w i t is lab el ed on the boa rd."},
+               :properties {:color "yellow"}}
+              {:id #uuid "67789ecd-f15c-4bf1-95f1-084056ca7ea8",
+               :page 48,
+               :position {:bounding {:x1 147,
+                                     :y1 78,
+                                     :x2 522,
+                                     :y2 660,
+                                     :width 673,
+                                     :height 951.30521441514},
+                          :rects (),
+                          :page 48},
+               :content {:text "[:span]", :image 1735958220938},
                :properties {:color "yellow"}}],
- :extra {:page 48}}
+ :extra {:page 49}}

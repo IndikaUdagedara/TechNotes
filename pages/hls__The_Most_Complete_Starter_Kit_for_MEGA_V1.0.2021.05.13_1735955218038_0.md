@@ -11,3 +11,10 @@ file-path:: ../assets/The_Most_Complete_Starter_Kit_for_MEGA_V1.0.2021.05.13_173
   hl-page:: 34
   hl-color:: yellow
   id:: 67789c83-3af5-4da6-860f-7ac71780046c
+- [:span]
+  ls-type:: annotation
+  hl-page:: 48
+  hl-color:: yellow
+  id:: 67789ecd-f15c-4bf1-95f1-084056ca7ea8
+  hl-type:: area
+  hl-stamp:: 1735958220938
