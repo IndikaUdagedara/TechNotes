@@ -18,3 +18,8 @@ file-path:: ../assets/The_Most_Complete_Starter_Kit_for_MEGA_V1.0.2021.05.13_173
   id:: 67789ecd-f15c-4bf1-95f1-084056ca7ea8
   hl-type:: area
   hl-stamp:: 1735958220938
+- Theory (PWM
+  ls-type:: annotation
+  hl-page:: 56
+  hl-color:: yellow
+  id:: 6778a9f0-c05d-4193-a818-ec29bd1b8601

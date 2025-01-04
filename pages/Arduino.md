@@ -5,4 +5,5 @@
 - Resistor colour codes
 	- ((67789ecd-f15c-4bf1-95f1-084056ca7ea8))
 	-
+- PWM ((6778a9f0-c05d-4193-a818-ec29bd1b8601))
 -
