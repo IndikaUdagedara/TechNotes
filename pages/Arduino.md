@@ -3,5 +3,5 @@
 	- ((677893d8-cd8b-4c04-adf9-c8e4eadeabf1))
 - Built-in LED ((67789c83-3af5-4da6-860f-7ac71780046c))
 - Resistor colour codes
-	- ![image.png](../assets/image_1735958082011_0.png){:height 371, :width 307}
+	- ![image.png](../assets/image_1735958198845_0.png){:height 881, :width 556}
 -
