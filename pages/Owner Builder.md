@@ -8,7 +8,7 @@
 - Reduce risks
 	- ((6780de53-898e-4bde-94e9-e8c16a12e88f))
 	-
-- ## Steps
+- ## Requirements
 - Planning permit - not required
   logseq.order-list-type:: number
 - Building permit - ==required== 
@@ -19,6 +19,6 @@
 	  logseq.order-list-type:: number
 - Any construction > $10k ==must== have a building contract with a builder who is registered with VBA
   logseq.order-list-type:: number
-- logseq.order-list-type:: number
+-
 - logseq.order-list-type:: number
 -
