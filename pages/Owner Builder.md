@@ -27,7 +27,7 @@
 - ## Building Permit
 	- How to obtain? ((6780fe5c-a280-4d1c-8f78-0fc13b0ff8b5))
 		- Issued by building surveyor
-		- Prerequsites
+		- Prerequisites
 			- drawings
 			- specifications
 			- allotment plans
