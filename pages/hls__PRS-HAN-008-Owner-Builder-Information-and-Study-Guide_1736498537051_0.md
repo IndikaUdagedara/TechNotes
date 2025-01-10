@@ -1,0 +1,8 @@
+file:: [PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736498537051_0.pdf](../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736498537051_0.pdf)
+file-path:: ../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736498537051_0.pdf
+
+- Financial risks• Project cost increases• Rectification work due to faulty workmanship and/or non-compliance• Loss by theft or fire on the site• Site protection costs (security, safety)• Occupational health and safety claims• Adjoining property owner claim
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 6780dd8b-ce32-40a6-8e20-a257378b6eca
