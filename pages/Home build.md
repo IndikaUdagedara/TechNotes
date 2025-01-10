@@ -28,11 +28,12 @@
 		  logseq.order-list-type:: number
 		  ![image.png](../assets/image_1736507275231_0.png)
 -
-- ## Building Permit
-	- How to obtain? ((6780fe5c-a280-4d1c-8f78-0fc13b0ff8b5))
-		- Issued by building surveyor ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507626547_0.pdf) ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507634657_0.pdf) ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507641383_0.pdf)
-		- Prerequisites
-			- drawings
-			- specifications
-			- allotment plans
-			-
+- # Build
+	- ## Building Permit
+		- How to obtain? ((6780fe5c-a280-4d1c-8f78-0fc13b0ff8b5))
+			- Issued by building surveyor ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507626547_0.pdf) ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507634657_0.pdf) ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507641383_0.pdf)
+			- Prerequisites
+				- drawings
+				- specifications
+				- allotment plans
+				-
