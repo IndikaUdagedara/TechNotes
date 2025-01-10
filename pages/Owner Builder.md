@@ -5,4 +5,6 @@
 	- **Time** ((6780ddf8-0960-43c3-879e-005352a87e16))
 	- **Future** ((6780de0f-fac5-4ca4-904a-86cab6bb2952))
 		- ==Cost of insurance when selling==
-		-
+- Reduce risks
+	- ((6780de53-898e-4bde-94e9-e8c16a12e88f))
+	-
