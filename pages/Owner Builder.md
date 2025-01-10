@@ -17,6 +17,8 @@
 	  logseq.order-list-type:: number
 	- Apply [Mitchell Shire - building permits](https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits)
 	  logseq.order-list-type:: number
+- Any construction > $10k ==must== have a building contract with a builder who is registered with VBA
+  logseq.order-list-type:: number
 - logseq.order-list-type:: number
 - logseq.order-list-type:: number
 -
