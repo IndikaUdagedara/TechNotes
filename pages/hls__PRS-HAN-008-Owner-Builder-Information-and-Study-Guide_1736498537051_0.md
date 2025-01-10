@@ -31,3 +31,8 @@ file-path:: ../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736
   hl-page:: 10
   hl-color:: yellow
   id:: 6780fb14-b46b-4ec2-a175-47ebc1112e15
+- C
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 6780fb57-8b03-46f7-91e9-feeb77f92c2c
