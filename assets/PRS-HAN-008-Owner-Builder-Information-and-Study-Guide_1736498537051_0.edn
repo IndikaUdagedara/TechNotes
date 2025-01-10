@@ -357,4 +357,4 @@
                           :page 10},
                :content {:text "C"},
                :properties {:color "yellow"}}],
- :extra {:page 10}}
+ :extra {:page 11}}
