@@ -6,3 +6,8 @@ file-path:: ../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736
   hl-page:: 8
   hl-color:: yellow
   id:: 6780dd8b-ce32-40a6-8e20-a257378b6eca
+- Quality risks• Adequacy of drawings and specifications• Standard of workmanship by others• Compliance with regulations (building standards, planning requirements, occupational health and safety, environmental protection standards)• Technical ability to direct and assess workmanship
+  ls-type:: annotation
+  hl-page:: 8
+  hl-color:: yellow
+  id:: 6780ddd9-b659-40f7-b077-809c5b12c722

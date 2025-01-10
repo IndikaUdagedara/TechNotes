@@ -1,2 +1,4 @@
 - ![PRS-HAN-008-Owner-Builder-Information-and-Study-Guide.pdf](../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736498537051_0.pdf)
--
+- Risks
+	- Financial ((6780dd8b-ce32-40a6-8e20-a257378b6eca))
+	- Quality ((6780ddd9-b659-40f7-b077-809c5b12c722))
