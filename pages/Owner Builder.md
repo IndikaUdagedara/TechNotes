@@ -21,7 +21,6 @@
   logseq.order-list-type:: number
 - Building surveyor ((6780fb14-b46b-4ec2-a175-47ebc1112e15))
   logseq.order-list-type:: number
-- VBA application
+- VBA application ((6780fcb1-4e77-456b-bac7-d64c4e827acf))
   logseq.order-list-type:: number
-- logseq.order-list-type:: number
 -

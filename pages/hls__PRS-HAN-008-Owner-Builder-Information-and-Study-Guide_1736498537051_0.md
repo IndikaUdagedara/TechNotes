@@ -36,3 +36,8 @@ file-path:: ../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736
   hl-page:: 10
   hl-color:: yellow
   id:: 6780fb57-8b03-46f7-91e9-feeb77f92c2c
+- Applying for a certificate of consent
+  ls-type:: annotation
+  hl-page:: 14
+  hl-color:: yellow
+  id:: 6780fcb1-4e77-456b-bac7-d64c4e827acf

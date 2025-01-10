@@ -356,5 +356,22 @@
                                    :height 951.7774642209231}),
                           :page 10},
                :content {:text "C"},
+               :properties {:color "yellow"}}
+              {:id #uuid "6780fcb1-4e77-456b-bac7-d64c4e827acf",
+               :page 14,
+               :position {:bounding {:x1 57.71875,
+                                     :y1 127.1875,
+                                     :x2 366.2837219238281,
+                                     :y2 147.6875,
+                                     :width 673,
+                                     :height 951.7774642209231},
+                          :rects ({:x1 57.71875,
+                                   :y1 127.1875,
+                                   :x2 366.2837219238281,
+                                   :y2 147.6875,
+                                   :width 673,
+                                   :height 951.7774642209231}),
+                          :page 14},
+               :content {:text "Applying for a certificate of consent"},
                :properties {:color "yellow"}}],
- :extra {:page 14}}
+ :extra {:page 16}}
