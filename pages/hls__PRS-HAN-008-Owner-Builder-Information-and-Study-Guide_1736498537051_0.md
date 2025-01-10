@@ -26,3 +26,8 @@ file-path:: ../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736
   hl-page:: 9
   hl-color:: yellow
   id:: 6780de53-898e-4bde-94e9-e8c16a12e88f
+- Building surveyors
+  ls-type:: annotation
+  hl-page:: 10
+  hl-color:: yellow
+  id:: 6780fb14-b46b-4ec2-a175-47ebc1112e15

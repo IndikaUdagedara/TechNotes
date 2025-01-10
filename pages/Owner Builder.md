@@ -19,6 +19,8 @@
 	  logseq.order-list-type:: number
 - Any construction > $10k ==must== have a building contract with a builder who is registered with VBA
   logseq.order-list-type:: number
--
+- Building surveyor ((6780fb14-b46b-4ec2-a175-47ebc1112e15))
+  logseq.order-list-type:: number
+- logseq.order-list-type:: number
 - logseq.order-list-type:: number
 -
