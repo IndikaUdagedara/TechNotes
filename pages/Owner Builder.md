@@ -11,8 +11,10 @@
 - ## Steps
 - Planning permit - not required
   logseq.order-list-type:: number
-- Building permit - ==required== https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits
+- Building permit - ==required== 
   logseq.order-list-type:: number
+	- https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits
+	  logseq.order-list-type:: number
 - logseq.order-list-type:: number
 - logseq.order-list-type:: number
 -
