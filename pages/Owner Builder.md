@@ -2,3 +2,6 @@
 - Risks
 	- Financial ((6780dd8b-ce32-40a6-8e20-a257378b6eca))
 	- Quality ((6780ddd9-b659-40f7-b077-809c5b12c722))
+	- Time ((6780ddf8-0960-43c3-879e-005352a87e16))
+	- Future ((6780de0f-fac5-4ca4-904a-86cab6bb2952))
+		-

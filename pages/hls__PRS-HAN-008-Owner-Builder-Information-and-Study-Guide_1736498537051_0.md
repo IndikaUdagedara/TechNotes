@@ -11,3 +11,13 @@ file-path:: ../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736
   hl-page:: 8
   hl-color:: yellow
   id:: 6780ddd9-b659-40f7-b077-809c5b12c722
+- Time risks• Identification and engagement of suitable tradespeople• Coordination and continuity of work• Completion of work
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 6780ddf8-0960-43c3-879e-005352a87e16
+- Future risks• Costs of insuring prospective purchasers• Claims by a purchaser
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 6780de0f-fac5-4ca4-904a-86cab6bb2952
