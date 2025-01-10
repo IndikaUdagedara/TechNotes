@@ -1,4 +1,7 @@
 - ![PRS-HAN-008-Owner-Builder-Information-and-Study-Guide.pdf](../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736498537051_0.pdf)
+- ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507649794_0.pdf)
+-
+-
 - ## Risks
 	- **Financial** ((6780dd8b-ce32-40a6-8e20-a257378b6eca))
 	- **Quality** ((6780ddd9-b659-40f7-b077-809c5b12c722))
@@ -27,7 +30,7 @@
 -
 - ## Building Permit
 	- How to obtain? ((6780fe5c-a280-4d1c-8f78-0fc13b0ff8b5))
-		- Issued by building surveyor
+		- Issued by building surveyor ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507626547_0.pdf) ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507634657_0.pdf) ![10 The Heights Wallan COS and Sec32.pdf](../assets/10_The_Heights_Wallan_COS_and_Sec32_1736507641383_0.pdf)
 		- Prerequisites
 			- drawings
 			- specifications
