@@ -9,9 +9,9 @@
 	- ((6780de53-898e-4bde-94e9-e8c16a12e88f))
 	-
 - ## Steps
-- Planning permit
+- Planning permit - not required
   logseq.order-list-type:: number
-- https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits
+- Building permit - ==required== https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits
   logseq.order-list-type:: number
 - logseq.order-list-type:: number
 - logseq.order-list-type:: number
