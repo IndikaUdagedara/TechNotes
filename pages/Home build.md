@@ -12,8 +12,12 @@
 		- ((6780de53-898e-4bde-94e9-e8c16a12e88f))
 		-
 	- ## Requirements
-		- Planning permit - not required
+		- Planning permit - ==required==
 		  logseq.order-list-type:: number
+			- https://www.vic.gov.au/planning-and-building-permits
+			  logseq.order-list-type:: number
+			  > For people rebuilding a bushfire impacted home, you will likely need a planning permit.
+			- logseq.order-list-type:: number
 		- Building permit - ==required== 
 		  logseq.order-list-type:: number
 			- Reference [VBA](https://www.vba.vic.gov.au/consumers/home-renovation-essentials/permits)
