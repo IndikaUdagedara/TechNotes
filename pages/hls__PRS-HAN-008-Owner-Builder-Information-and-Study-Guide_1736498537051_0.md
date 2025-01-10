@@ -21,3 +21,8 @@ file-path:: ../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736
   hl-page:: 9
   hl-color:: yellow
   id:: 6780de0f-fac5-4ca4-904a-86cab6bb2952
+- Reducing risks Risks can be reduced by ensuring you have appropriate contracts and insurance policies in place. This may include:• entering into a major domestic building contract with a registered domestic builder• making sure your registered domestic builder has domestic building insurance cover• obtaining insurance policy cover from an insurance provider
+  ls-type:: annotation
+  hl-page:: 9
+  hl-color:: yellow
+  id:: 6780de53-898e-4bde-94e9-e8c16a12e88f
