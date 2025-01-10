@@ -9,7 +9,9 @@
 	- ((6780de53-898e-4bde-94e9-e8c16a12e88f))
 	-
 - ## Steps
-- Get planning permit from council https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits
+- Planning permit
+  logseq.order-list-type:: number
+- https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits
   logseq.order-list-type:: number
 - logseq.order-list-type:: number
 - logseq.order-list-type:: number
