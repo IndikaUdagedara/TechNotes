@@ -23,6 +23,7 @@
   logseq.order-list-type:: number
 - VBA application ((6780fcb1-4e77-456b-bac7-d64c4e827acf))
   logseq.order-list-type:: number
+  ![image.png](../assets/image_1736507275231_0.png)
 -
 - ## Building Permit
 	- How to obtain? ((6780fe5c-a280-4d1c-8f78-0fc13b0ff8b5))
