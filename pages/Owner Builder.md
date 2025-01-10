@@ -13,7 +13,9 @@
   logseq.order-list-type:: number
 - Building permit - ==required== 
   logseq.order-list-type:: number
-	- https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits
+	- Reference [VBA](https://www.vba.vic.gov.au/consumers/home-renovation-essentials/permits)
+	  logseq.order-list-type:: number
+	- Apply [Mitchell Shire - building permits](https://www.mitchellshire.vic.gov.au/plan-and-build/building-services/building-permits)
 	  logseq.order-list-type:: number
 - logseq.order-list-type:: number
 - logseq.order-list-type:: number
