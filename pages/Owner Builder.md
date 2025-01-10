@@ -8,5 +8,8 @@
 - Reduce risks
 	- ((6780de53-898e-4bde-94e9-e8c16a12e88f))
 	-
--
+- ## Steps
+- Get planning permit from council
+  logseq.order-list-type:: number
+- logseq.order-list-type:: number
 -
