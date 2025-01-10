@@ -41,3 +41,8 @@ file-path:: ../assets/PRS-HAN-008-Owner-Builder-Information-and-Study-Guide_1736
   hl-page:: 14
   hl-color:: yellow
   id:: 6780fcb1-4e77-456b-bac7-d64c4e827acf
+- How can I obtain a building permit?
+  ls-type:: annotation
+  hl-page:: 17
+  hl-color:: yellow
+  id:: 6780fe5c-a280-4d1c-8f78-0fc13b0ff8b5
