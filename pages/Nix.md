@@ -11,12 +11,10 @@
   
   ```
   with a; [ x y z ]
-  
   ```
   is equivalent to
   ```
   [ a.x a.y a.z ]
-  
   ```
 - `inherit ..` inherit is shorthand for assigning the value of a name from an existing scope to the same name in a nested scope.
   
