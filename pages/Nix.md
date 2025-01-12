@@ -157,4 +157,4 @@
 	- [https://dee.underscore.world/blog/home-manager-fonts/](https://dee.underscore.world/blog/home-manager-fonts/)
 - ### Modules
 	- [https://xeiaso.net/talks/asg-2023-nixos/](https://xeiaso.net/talks/asg-2023-nixos/)
-- https://fasterthanli.me/series/building-a-rust-service-with-nix/part-9
+	- https://fasterthanli.me/series/building-a-rust-service-with-nix/part-9
