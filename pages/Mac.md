@@ -23,6 +23,7 @@
 	- Ctrl + down arrow: Show windows of an app
 	- Cmd + Ctrl + Q : logout
 	- Cmd + Shift + . : show hidden files
+	- Ctrl + Cmd + Space: Emoji
 - ## Chrome
 	- Cmd + Opt + left/right arrow: Swiitch tabs
 - ## Text edit
