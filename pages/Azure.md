@@ -128,6 +128,7 @@
 			- Within an Azure subscription, you can create multiple Microsoft Entra tenants
 			- At any given time, ==an Azure subscription must be associated with one, and only one, Microsoft Entra tenant==
 			- ==You can associate the same Microsoft Entra tenant with multiple Azure subscriptions==
-			- [[draws/2025-01-21-15-07-45.excalidraw]]
+			- Applications and ServicePrincipals are its own classes
+				- [[draws/2025-01-21-15-07-45.excalidraw]]
 		-
 -
