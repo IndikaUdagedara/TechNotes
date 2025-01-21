@@ -129,6 +129,9 @@
 			- At any given time, ==an Azure subscription must be associated with one, and only one, Microsoft Entra tenant==
 			- ==You can associate the same Microsoft Entra tenant with multiple Azure subscriptions==
 			- Applications and ServicePrincipals are its own classes
+				- Application: definition of an application
+				- ServicePrincipal: Application instance in EntraID
+				-
 				- [[draws/2025-01-21-15-07-45.excalidraw]]
 		-
 -
