@@ -135,8 +135,8 @@
 		- **Entra ID vs AD DS**
 			- |AD DS|Entra ID|
 			  |--|--|
-			  |is a directory service and uses Windows VM|Identity service for internet-based applications
-			- |
+			  |is a directory service and uses Windows VM|Identity service for internet-based applications|
+			  |Uses LDAP for querying| Uses http|
 			- AD DS
 				- is a directory service and uses Windows VM
 				- Uses LDAP to query
