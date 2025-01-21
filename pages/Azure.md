@@ -131,7 +131,7 @@
 			- Applications and ServicePrincipals are its own classes
 				- Application: definition of an application
 				- ServicePrincipal: Application instance in EntraID
-				-
+				- Application can be defined in one tenant and used it across multiple tenants by defining ServicePrincipals in each tenant
 				- [[draws/2025-01-21-15-07-45.excalidraw]]
 		-
 -
