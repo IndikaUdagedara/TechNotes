@@ -136,7 +136,9 @@
 			- |AD DS|Entra ID|
 			  |--|--|
 			  |is a directory service and uses Windows VM|Identity service for internet-based applications|
-			  |Uses LDAP for querying| Uses http|
+			  |Uses LDAP for querying| Uses REST API|
+			  |Uses Kerberos for Authentication| Uses SAML, OpenID |
+			-
 			- AD DS
 				- is a directory service and uses Windows VM
 				- Uses LDAP to query
