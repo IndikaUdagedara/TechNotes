@@ -120,11 +120,10 @@
 		- **Familiarity with**
 			- [[bash]]
 			- [[Powershell]]
-		- **Entra ID**
-			- Free tier automatically provisioned when creating a new subscription
 		- **Azure Advisor**
 			- Free service built into Azure that provides recommendations on high availability, security, performance, and cost
 		- **Entra ID**
+			- Free tier automatically provisioned when creating a new subscription
 			- [[draws/2025-01-21-15-07-45.excalidraw]]
 			- Within an Azure subscription, you can create multiple Microsoft Entra tenants
 			- At any given time, ==an Azure subscription must be associated with one, and only one, Microsoft Entra tenant==
@@ -133,8 +132,7 @@
 				- Application: definition of an application
 				- ServicePrincipal: Application instance in EntraID
 				- Application can be defined in one tenant and used it across multiple tenants by defining ServicePrincipals in each tenant
-			-
-- **Entra ID vs AD DS**
-- en
+		- **Entra ID vs AD DS**
+			- AD
 -
 -
