@@ -127,7 +127,7 @@
 		- **Entra ID**
 			- Within an Azure subscription, you can create multiple Microsoft Entra tenants
 			- At any given time, ==an Azure subscription must be associated with one, and only one, Microsoft Entra tenant==
-			- You can associate the same Microsoft Entra tenant with multiple Azure subscriptions. This allows you to use the same users, groups, and applications to manage resources across multiple Azure subscriptions.This association allows you to grant permissions to resources in the Azure subscription (via RBAC) to users, groups, and applications that exist in that particular Microsoft Entra tenant
+			- ==You can associate the same Microsoft Entra tenant with multiple Azure subscriptions==
 		-
 		-
 -
