@@ -1,4 +1,6 @@
-- [[draws/2025-01-21-16-25-26.excalidraw]]
+- MSFT services
+  id:: 678f2fc3-d022-4a91-bdb4-ebd39d2ba0dd
+  [[draws/2025-01-21-16-25-26.excalidraw]]
 - ## Fundamentals
 	- **Regions/AZs**
 		- Azure regions - each region is paired with another in the same country e.g. AU Central 1 and AU Central 2.
@@ -124,6 +126,7 @@
 		- **Azure Advisor**
 			- Free service built into Azure that provides recommendations on high availability, security, performance, and cost
 		- **Entra ID**
+			- Can provided identity for all MSFT services (not just Azure) ((678f2fc3-d022-4a91-bdb4-ebd39d2ba0dd))
 			- Free tier automatically provisioned when creating a new subscription
 			- [[draws/2025-01-21-15-07-45.excalidraw]]
 			- Within an Azure subscription, you can create multiple Microsoft Entra tenants
