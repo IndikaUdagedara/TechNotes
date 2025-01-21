@@ -137,12 +137,7 @@
 			  |--|--|
 			  |is a directory service and uses Windows VM|Identity service for internet-based applications|
 			  |Uses LDAP for querying| Uses REST API|
-			  |Uses Kerberos for Authentication| Uses SAML, OpenID |
-			-
-			- AD DS
-				- is a directory service and uses Windows VM
-				- Uses LDAP to query
-				- Kerberos for authentication
-				- Uses OU and GPO (Group Policy Objects)
+			  |Uses Kerberos for Authentication| Uses SAML, OpenID Connect for authn and OAuth for authz|
+			  |Uses OUs and GPOs (Group Policy Objects)|Uses users and groups in a flat structure|
 -
 -
