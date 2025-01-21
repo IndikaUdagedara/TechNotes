@@ -1,4 +1,5 @@
-## Fundamentals
+- [[draws/2025-01-21-16-25-26.excalidraw]]
+- ## Fundamentals
 	- **Regions/AZs**
 		- Azure regions - each region is paired with another in the same country e.g. AU Central 1 and AU Central 2.
 		- Zonal - deployed to an AZ
