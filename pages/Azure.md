@@ -122,5 +122,8 @@
 			- [[Powershell]]
 		- **Entra ID**
 			- Free tier automatically provisioned when creating a new subscription
+		- **Azure Advisor**
+			- Free service built into Azure that provides recommendations on high availability, security, performance, and cost
+		-
 		-
 -
