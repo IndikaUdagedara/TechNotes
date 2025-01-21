@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["naming conventio" "Nix"]
+ :favorites ["tooling" "naming conventio" "Nix"]
 
  ;; Set flashcards interval.
  ;; Expected value:
