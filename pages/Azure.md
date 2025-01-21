@@ -133,6 +133,10 @@
 				- ServicePrincipal: Application instance in EntraID
 				- Application can be defined in one tenant and used it across multiple tenants by defining ServicePrincipals in each tenant
 		- **Entra ID vs AD DS**
-			- AD
+			- AD DS
+				- is a directory service and uses Windows VM
+				- Uses LDAP to query
+				- Kerberos for authentication
+				- Uses OU and GPO (Group Policy Objects)
 -
 -
