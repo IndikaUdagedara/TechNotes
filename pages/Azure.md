@@ -144,7 +144,7 @@
 					- Conditional Access
 					- Advanced security reports and alerts
 				- P2
-					- Privileged Identity Managment
+					- Privileged Identity Management e.g., permanent and temporary administrators
 		- **Entra ID vs AD DS** [docs](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services)
 		  |AD DS|Entra ID|
 		  |--|--|
