@@ -139,9 +139,9 @@
 		- **Entra ID vs AD DS** [docs](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services)
 		  |AD DS|Entra ID|
 		  |--|--|
-		  |is a directory service and uses Windows VM|Identity service for internet-based applications|
+		  |Is a directory service and uses Windows VM|Identity service for internet-based applications|
 		  |Uses LDAP for querying| Uses REST API|
-		  |Uses Kerberos for Authentication| Uses SAML, OpenID Connect for authn and OAuth for authz|
+		  |Uses Kerberos for Authentication| Uses SAML, WS-Federation, OpenID Connect for authn and OAuth for authz|
 		  |Uses OUs and GPOs (Group Policy Objects)|Uses users and groups in a flat structure|
 -
 -
