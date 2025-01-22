@@ -153,7 +153,8 @@
 		- **Application authentication in Cloud**. Options:
 			- Using On-prem AD
 				- On-prem to Cloud VPN and use On-prem AD
-			- AD replication in the cloud
-			- Entra Domain Services
+				- AD replication in the cloud
+			- Entra Domain Services (P1/P2) - this is fully compatible with AD DS
+			-
 		-
 -
