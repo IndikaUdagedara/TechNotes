@@ -23,9 +23,8 @@
 		- Can assign permissions (RBAC) to a Subs which are inherited by RGs > Resources
 		- Apply policies to Subs > inherited by RGs > Resources
 		- Apply budget to Subs > inherited by RGs > Resources
-		- Subscription has limits (similar to AWS resource Quotas) ![LIAITS 0 AD ](Exported%20image%2020241201151910-0.png)  
-		  
-		  Why/when to use subscriptions -- similar to AWS account
+		- Subscription has limits (similar to AWS resource Quotas)
+		- Why/when to use subscriptions -- similar to AWS account
 		- Different environments
 		- Different billing req
 		- Different limits
@@ -68,9 +67,8 @@
 			- LRS - local redundant: 3 copies in single AZ
 			- ZRS - zone redundant: 3 copies in 3 AZs
 			- GRS - geo redundant: 3 copies in 1 AZ in region and replicated to paired region
-			- GZRS - geo-zone redundant: 3 copies in 3 AZs in region and replicated to paired region   
-			  
-			  Standard: has all redundancy levels  
+			- GZRS - geo-zone redundant: 3 copies in 3 AZs in region and replicated to paired region
+			- Standard: has all redundancy levels  
 			  Premium: has LRS and ZRS only
 		- **Blob**
 			- Premium SSD
