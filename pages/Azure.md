@@ -139,9 +139,10 @@
 				- P1
 					- MFA
 					- 99.9% SLA
-					- Conditional Access
+					- Conditional Access based on device, group, location
 					- Advanced security reports and alerts
 				- P2
+					- Risk based access
 					- Privileged Identity Management e.g., permanent and temporary administrators
 		- **Entra ID vs AD DS** [docs](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services)
 		  |AD DS|Entra ID|
