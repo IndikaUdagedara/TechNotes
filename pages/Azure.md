@@ -152,5 +152,10 @@
 		  |Uses LDAP for querying| Uses REST API|
 		  |Uses Kerberos for Authentication| Uses SAML, WS-Federation, OpenID Connect for authn and OAuth for authz|
 		  |Uses OUs and GPOs (Group Policy Objects)|Uses users and groups in a flat structure|
+		- Application authentication in Cloud
 		-
+		- adfaf
+		-
+		-
+-
 -
