@@ -150,11 +150,15 @@
 		  |Uses LDAP for querying| Uses REST API|
 		  |Uses Kerberos for Authentication| Uses SAML, WS-Federation, OpenID Connect for authn and OAuth for authz|
 		  |Uses OUs and GPOs (Group Policy Objects)|Uses users and groups in a flat structure|
-		- **Application authentication in Cloud**. Options:
-			- Using On-prem AD
-				- On-prem to Cloud VPN and use On-prem AD
-				- AD replication in the cloud
-			- Entra Domain Services (P1/P2) - this is fully compatible with AD DS
+		- **Application authentication in Cloud**.
+			- Options:
+				- Using On-prem AD
+					- On-prem to Cloud VPN and use On-prem AD
+					- AD replication in the cloud
+				- Entra Domain Services (P1/P2) - this is fully compatible with AD DS
+			- Scenario:
+				- Create a Microsoft Entra tenant and enable Microsoft Entra Domain Services
+				- Deploy a virtual network between its on-premises resources and the Microsoft Entra tenant. You can enable Microsoft Entra Domain Services for this virtual network so that all on-premises users and services can use domain services from Microsoft Entra ID.
 			-
 		-
 -
