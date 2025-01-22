@@ -153,7 +153,8 @@
 		  |Uses Kerberos for Authentication| Uses SAML, WS-Federation, OpenID Connect for authn and OAuth for authz|
 		  |Uses OUs and GPOs (Group Policy Objects)|Uses users and groups in a flat structure|
 		- Application authentication in Cloud
-		-
 		- On-prem to Cloud VPN and use On-prem AD
+		- AD replication in the cloud
+		- Entra Domain Services
 		-
-		-
+-
