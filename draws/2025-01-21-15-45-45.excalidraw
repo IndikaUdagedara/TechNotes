@@ -71,7 +71,7 @@
       "containerId": "CZUOpca8YOyyNYsYxEeEP",
       "originalText": "Person",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 18
     },
     {
       "type": "rectangle",
@@ -141,7 +141,7 @@
       "containerId": "TS97urtPN0Ry4CuOI13HD",
       "originalText": "Location",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 18
     },
     {
       "type": "freedraw",
@@ -2023,7 +2023,7 @@
       "containerId": "XA-F633__mBzpf117cVgC",
       "originalText": "Person",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 18
     },
     {
       "type": "rectangle",
@@ -2093,7 +2093,7 @@
       "containerId": "SYX10hVE6e4-y-VWZ_0g3",
       "originalText": "Location",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 18
     },
     {
       "type": "freedraw",
