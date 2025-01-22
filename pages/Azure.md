@@ -158,7 +158,11 @@
 				- Entra Domain Services (P1/P2) - this is fully compatible with AD DS
 			- Scenario:
 				- Create a Microsoft Entra tenant and enable Microsoft Entra Domain Services
-				- Deploy a virtual network between its on-premises resources and the Microsoft Entra tenant. You can enable Microsoft Entra Domain Services for this virtual network so that all on-premises users and services can use domain services from Microsoft Entra ID.
+				  logseq.order-list-type:: number
+				- Deploy a virtual network between its on-premises resources and the Microsoft Entra tenant.
+				  logseq.order-list-type:: number
+				- Enable Microsoft Entra Domain Services for this virtual network so that all on-premises users and services can use domain services from Microsoft Entra ID.
+				  logseq.order-list-type:: number
 			-
 		-
 -
