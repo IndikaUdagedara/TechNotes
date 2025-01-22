@@ -136,6 +136,10 @@
 				- Application: definition of an application
 				- ServicePrincipal: Application instance in EntraID
 				- Application can be defined in one tenant and used it across multiple tenants by defining ServicePrincipals in each tenant
+			- Entra tiers
+				- Free
+				- P1
+				- P2
 		- **Entra ID vs AD DS** [docs](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services)
 		  |AD DS|Entra ID|
 		  |--|--|
@@ -143,5 +147,5 @@
 		  |Uses LDAP for querying| Uses REST API|
 		  |Uses Kerberos for Authentication| Uses SAML, WS-Federation, OpenID Connect for authn and OAuth for authz|
 		  |Uses OUs and GPOs (Group Policy Objects)|Uses users and groups in a flat structure|
--
+		-
 -
