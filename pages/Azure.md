@@ -139,7 +139,12 @@
 			- Entra tiers
 				- Free
 				- P1
+					- MFA
+					- 99.9% SLA
+					- Conditional Access
+					- Advanced security reports and alerts
 				- P2
+					- Privileged Identity Managment
 		- **Entra ID vs AD DS** [docs](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services)
 		  |AD DS|Entra ID|
 		  |--|--|
