@@ -196,6 +196,8 @@
 					- Dynamic Device - 2 ways to associate with Entra
 						- "Registered" - personal device (BYOD)
 						- "Joined" - enterprise owned device - complete control - these are shown as computer objects in Entra
+			- Admin Units
+				- Can add Users or Groups to Admin Units
 			-
 		-
 -
