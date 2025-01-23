@@ -178,6 +178,7 @@
 					- source: **Windows Server AD**
 				- Guests
 					- source: **Invited User**
+			- [Assign licences](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/3-exercise-assign-licenses-users)
 		-
 -
 -
