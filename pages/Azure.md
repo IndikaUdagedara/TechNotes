@@ -198,7 +198,7 @@
 						- "Joined" - enterprise owned device - complete control - these are shown as computer objects in Entra
 			- Admin Units (AU)
 				- Can add Users or Groups to Admin Units
-				- Can grant Roles at AU level
+				- Can grant Roles at AU level (as a safety features the Roles added to Groups do not get extended to Users in a Group)
 			-
 		-
 -
