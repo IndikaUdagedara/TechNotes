@@ -169,6 +169,7 @@
 			- ![image.png](../assets/image_1737607448509_0.png){:height 278, :width 370}
 			- Known-Folder-Move (KFM) - can migrate local data to cloud
 			- User-State-Migration-Tool (USMT) -  migrate user state (account, files app settings), can be used for PC replacement and migrations
-			-
+			- **Microsoft Intune Suite** - for asset inventory
 		-
+-
 -
