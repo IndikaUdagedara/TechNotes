@@ -175,7 +175,7 @@
 			- Known-Folder-Move (KFM) - can migrate local data to cloud
 			- User-State-Migration-Tool (USMT) -  migrate user state (account, files app settings), can be used for PC replacement and migrations
 			- **Microsoft Intune Suite** - for asset inventory
-		- Identity management**
+		- #### Identity management
 			- Users
 				- Identity types
 					- Cloud - exist only in Entra ID
