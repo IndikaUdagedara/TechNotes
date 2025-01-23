@@ -192,7 +192,9 @@
 					- Microsoft 365 Groups
 				- Membership Type [Example](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/6-exercise-add-groups-azure-active-directory)
 					- Assigned - users are manually added
-					- Dynamic - users are added based on rules
+					- Dynamic User - users are added based on rules
+					- Dynamic Device
+						-
 			-
 		-
 -
