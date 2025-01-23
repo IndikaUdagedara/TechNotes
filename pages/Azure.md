@@ -194,8 +194,8 @@
 					- Assigned - users are manually added
 					- Dynamic User - users are added based on rules
 					- Dynamic Device - 2 ways to associate with Entra
-						- "Registered"
-						- "Joined"
+						- "Registered" - personal device (BYOD)
+						- "Joined" - enterprise owned device - complete control
 			-
 		-
 -
