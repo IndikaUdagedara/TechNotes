@@ -199,6 +199,8 @@
 			- Admin Units (AU)
 				- Can add Users or Groups to Admin Units
 				- Can grant Roles at AU level (as a safety features the Roles added to Groups do not get extended to Users in a Group)
+		- #### Management Groups
+			- Are created in Entra tenant
 			-
 		-
 -
