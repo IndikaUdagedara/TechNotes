@@ -164,6 +164,8 @@
 				  logseq.order-list-type:: number
 				- Enable Microsoft Entra Domain Services for this virtual network so that all on-premises users and services can use domain services from Microsoft Entra ID.
 				  logseq.order-list-type:: number
+		- **Enterprise Desktop**
+			-
 			-
 		-
 -
