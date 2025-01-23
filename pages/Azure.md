@@ -193,8 +193,9 @@
 				- Membership Type [Example](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/6-exercise-add-groups-azure-active-directory)
 					- Assigned - users are manually added
 					- Dynamic User - users are added based on rules
-					- Dynamic Device
-						-
+					- Dynamic Device - 2 ways to associate with Entra
+						- "Registered"
+						- "Joined"
 			-
 		-
 -
