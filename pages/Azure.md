@@ -177,7 +177,7 @@
 				- Directory synced (from on-prem AD)
 					- source: **Windows Server AD**
 				- Guests
-					- source: Invited User
+					- source: **Invited User**
 		-
 -
 -
