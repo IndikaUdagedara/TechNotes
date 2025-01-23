@@ -104,7 +104,7 @@
 		- #### Learning path
 			- https://learn.microsoft.com/en-us/plans/50nrtozg28d354
 			- https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification
-		- #### Cloud Shell**
+		- #### Cloud Shell
 			- Browser accessible AZ CLI with Powershell modules
 			  ```
 			  yourname@Azure:~$ ls
@@ -121,9 +121,9 @@
 		- **Familiarity with**
 			- [[bash]]
 			- [[Powershell]]
-		- **Azure Advisor**
+		- #### Azure Advisor
 			- Free service built into Azure that provides recommendations on high availability, security, performance, and cost
-		- **Entra ID**
+		- #### Entra ID
 			- ![image.png](../assets/image_1737670918283_0.png)
 			- Entra Connect: sync AD DS to Entra ID
 				- Sync (agent runs on AD DS)
