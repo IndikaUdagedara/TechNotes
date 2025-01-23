@@ -173,8 +173,11 @@
 		- **Identity management**
 			- Identity types
 				- Cloud - exist only in Entra ID
-				- Directory synced
+					- source: **Microsoft Entra ID** or **External Microsoft Entra directory**
+				- Directory synced (from on-prem AD)
+					- source: **Windows Server AD**
 				- Guests
+					- source: Invited User
 		-
 -
 -
