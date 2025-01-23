@@ -171,18 +171,24 @@
 			- User-State-Migration-Tool (USMT) -  migrate user state (account, files app settings), can be used for PC replacement and migrations
 			- **Microsoft Intune Suite** - for asset inventory
 		- **Identity management**
-			- Identity types
-				- Cloud - exist only in Entra ID
-					- source: **Microsoft Entra ID** or **External Microsoft Entra directory**
-				- Directory synced (from on-prem AD)
-					- source: **Windows Server AD**
-				- Guests
-					- source: **Invited User**
-			- [Assign licences](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/3-exercise-assign-licenses-users)
-			- Deleted users remain suspended for 30 days during which user can be restored. Afterwards, they are permanently deleted [Example](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/4-exercise-restore-remove-deleted-users)
-			- Group types
-				- Security Groups
-				- Microsoft 365 Groups
+			- Users
+				- Identity types
+					- Cloud - exist only in Entra ID
+						- source: **Microsoft Entra ID** or **External Microsoft Entra directory**
+					- Directory synced (from on-prem AD)
+						- source: **Windows Server AD**
+					- Guests
+						- source: **Invited User**
+				- [Assign licences](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/3-exercise-assign-licenses-users)
+				- Deleted users remain suspended for 30 days during which user can be restored. Afterwards, they are permanently deleted [Example](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/4-exercise-restore-remove-deleted-users)
+			- Groups
+				- Group types
+					- Security Groups
+					- Microsoft 365 Groups
+				- Membership
+					- Assigned - users are manually assigned
+					- Dynamic - users are assigned based on rules
+			-
 		-
 -
 -
