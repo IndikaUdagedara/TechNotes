@@ -195,7 +195,7 @@
 					- Dynamic User - users are added based on rules
 					- Dynamic Device - 2 ways to associate with Entra
 						- "Registered" - personal device (BYOD)
-						- "Joined" - enterprise owned device - complete control
+						- "Joined" - enterprise owned device - complete control - these are shown as computer objects in Entra
 			-
 		-
 -
