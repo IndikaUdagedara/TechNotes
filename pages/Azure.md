@@ -165,7 +165,7 @@
 				- Enable Microsoft Entra Domain Services for this virtual network so that all on-premises users and services can use domain services from Microsoft Entra ID.
 				  logseq.order-list-type:: number
 		- **Enterprise Desktop**
-			- AutoPilot integrats
+			- _AutoPilot~~ joins device to Entra ID and enrolls in Intune
 			-
 		-
 -
