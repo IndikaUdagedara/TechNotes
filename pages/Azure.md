@@ -185,9 +185,9 @@
 				- Group types
 					- Security Groups
 					- Microsoft 365 Groups
-				- Membership
-					- Assigned - users are manually assigned
-					- Dynamic - users are assigned based on rules
+				- Membership Type
+					- Assigned - users are manually added
+					- Dynamic - users are added based on rules
 			-
 		-
 -
