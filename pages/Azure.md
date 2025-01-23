@@ -125,8 +125,9 @@
 			- Free service built into Azure that provides recommendations on high availability, security, performance, and cost
 		- **Entra ID**
 			- ![image.png](../assets/image_1737670918283_0.png)
-			- Entra Connect
-				-
+			- Entra Connect: sync AD DS to Entra ID
+				- Sync (agent runs on AD DS)
+				- Cloud Sync (agent runs on Azure)
 			- Can provide identity for all MSFT services (not just Azure) {{embed ((678f2fc3-d022-4a91-bdb4-ebd39d2ba0dd))}}
 			- Free tier automatically provisioned when creating a new subscription
 			- [[draws/2025-01-21-15-07-45.excalidraw]]
