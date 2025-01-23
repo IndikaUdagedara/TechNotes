@@ -101,10 +101,10 @@
 -
 - ## Certificates
 	- ### Administrator Associate
-		- Learning path
+		- #### Learning path
 			- https://learn.microsoft.com/en-us/plans/50nrtozg28d354
 			- https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification
-		- **Cloud Shell**
+		- #### Cloud Shell**
 			- Browser accessible AZ CLI with Powershell modules
 			  ```
 			  yourname@Azure:~$ ls
@@ -131,7 +131,6 @@
 			- Can provide identity for all MSFT services (not just Azure) {{embed ((678f2fc3-d022-4a91-bdb4-ebd39d2ba0dd))}}
 			- Free tier automatically provisioned when creating a new subscription
 			- [[draws/2025-01-21-15-07-45.excalidraw]]
-			- Within an Azure subscription, you can create multiple Microsoft Entra tenants
 			- At any given time, ==an Azure subscription must be associated with one, and only one, Microsoft Entra tenant==
 			- ==You can associate the same Microsoft Entra tenant with multiple Azure subscriptions==
 			- Applications and ServicePrincipals are its own classes
