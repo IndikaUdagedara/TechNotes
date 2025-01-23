@@ -148,14 +148,15 @@
 					- Risk based access
 					- Privileged Identity Management e.g., permanent and temporary administrators
 					-
-		- **Entra ID vs AD DS** [docs](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services)
-		  |AD DS|Entra ID|
-		  |--|--|
-		  |Is a directory service and uses Windows VM|Identity service for internet-based applications|
-		  |Uses LDAP for querying| Uses REST API|
-		  |Uses Kerberos for Authentication| Uses SAML, WS-Federation, OpenID Connect for authn and OAuth for authz|
-		  |Uses OUs and GPOs (Group Policy Objects)|Uses users and groups in a flat structure|
-		- **Application authentication in Cloud**.
+		- #### Entra ID vs AD DS
+			- [docs](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services)
+			  |AD DS|Entra ID|
+			  |--|--|
+			  |Is a directory service and uses Windows VM|Identity service for internet-based applications|
+			  |Uses LDAP for querying| Uses REST API|
+			  |Uses Kerberos for Authentication| Uses SAML, WS-Federation, OpenID Connect for authn and OAuth for authz|
+			  |Uses OUs and GPOs (Group Policy Objects)|Uses users and groups in a flat structure|
+		- #### Application authentication in Cloud
 			- Options:
 				- Using On-prem AD
 					- On-prem to Cloud VPN and use On-prem AD
@@ -174,7 +175,7 @@
 			- Known-Folder-Move (KFM) - can migrate local data to cloud
 			- User-State-Migration-Tool (USMT) -  migrate user state (account, files app settings), can be used for PC replacement and migrations
 			- **Microsoft Intune Suite** - for asset inventory
-		- **Identity management**
+		- Identity management**
 			- Users
 				- Identity types
 					- Cloud - exist only in Entra ID
