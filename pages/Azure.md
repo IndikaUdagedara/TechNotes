@@ -179,7 +179,7 @@
 				- Guests
 					- source: **Invited User**
 			- [Assign licences](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/3-exercise-assign-licenses-users)
-			- Deleted users remain suspended for 30 days during which user can be restored. Afterwards, they are permanently deleted
+			- Deleted users remain suspended for 30 days during which user can be restored. Afterwards, they are permanently deleted [Example](https://learn.microsoft.com/en-us/training/modules/create-configure-manage-identities/4-exercise-restore-remove-deleted-users)
 			-
 		-
 -
