@@ -124,6 +124,9 @@
 		- **Azure Advisor**
 			- Free service built into Azure that provides recommendations on high availability, security, performance, and cost
 		- **Entra ID**
+			- ![image.png](../assets/image_1737670918283_0.png)
+			- Entra Connect
+				-
 			- Can provide identity for all MSFT services (not just Azure) {{embed ((678f2fc3-d022-4a91-bdb4-ebd39d2ba0dd))}}
 			- Free tier automatically provisioned when creating a new subscription
 			- [[draws/2025-01-21-15-07-45.excalidraw]]
@@ -144,6 +147,7 @@
 				- P2
 					- Risk based access
 					- Privileged Identity Management e.g., permanent and temporary administrators
+					-
 		- **Entra ID vs AD DS** [docs](https://learn.microsoft.com/en-us/training/modules/understand-azure-active-directory/3-compare-azure-active-directory-domain-services)
 		  |AD DS|Entra ID|
 		  |--|--|
