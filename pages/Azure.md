@@ -202,7 +202,8 @@
 		- #### Management Groups
 			- Are created in Entra tenant
 			- What can you do?
-			- Apply policies
+			- RBAC
+			- Policies
 			- Budget
 			-
 			-
