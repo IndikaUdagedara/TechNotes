@@ -205,7 +205,7 @@
 				- Policies
 				- Budget
 		- #### Cost Management
-			- Hybrid Benefit - Reduce cost when multiple licences are being used
+			- Hybrid Benefit - Reduce cost when on-prem licences are available
 			- Azure reservations
 			- Savings Plans - flexible compute
 			-
