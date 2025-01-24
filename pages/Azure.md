@@ -204,6 +204,7 @@
 				- RBAC
 				- Policies
 				- Budget
+		- #### Cost Management
 			-
 			-
 		-
