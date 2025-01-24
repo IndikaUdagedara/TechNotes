@@ -1,4 +1,3 @@
--
 - MSFT services
   id:: 678f2fc3-d022-4a91-bdb4-ebd39d2ba0dd
   [[draws/2025-01-21-16-25-26.excalidraw]]
