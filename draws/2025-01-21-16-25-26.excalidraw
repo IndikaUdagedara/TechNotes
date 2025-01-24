@@ -71,7 +71,7 @@
       "containerId": "cuS1F1MovgWqy7p03zwCd",
       "originalText": "Azure",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 18
     },
     {
       "type": "rectangle",
@@ -141,7 +141,7 @@
       "containerId": "ri3W8qN92M-rErmkPKR5n",
       "originalText": "Office 365",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 43
     },
     {
       "type": "rectangle",
@@ -211,7 +211,7 @@
       "containerId": "GUMrN7NcrRmEsDgz2Qvs1",
       "originalText": "Dynamics 365",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 43
     },
     {
       "type": "text",
@@ -321,7 +321,7 @@
       "containerId": "I9h_OOD4MWtYgRzrXCyfp",
       "originalText": "Entra ID",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 43
     },
     {
       "type": "rectangle",
