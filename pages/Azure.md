@@ -206,7 +206,7 @@
 				- Budget
 		- #### Cost Management
 			- Hybrid Benefit - Reduce cost when on-prem licences are available
-			- Azure reservations
+			- Azure reservations - specific service/region
 			- Savings Plans - flexible compute
 			-
 		-
