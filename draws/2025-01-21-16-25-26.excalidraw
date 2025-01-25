@@ -411,8 +411,8 @@
     },
     {
       "type": "text",
-      "version": 596,
-      "versionNonce": 1727077643,
+      "version": 597,
+      "versionNonce": 1713031563,
       "isDeleted": false,
       "id": "HJbUZlniax0mekL_owjuy",
       "fillStyle": "hachure",
@@ -432,7 +432,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1737685919780,
+      "updated": 1737777253526,
       "link": null,
       "locked": false,
       "fontSize": 20.32213188755668,
@@ -443,7 +443,7 @@
       "containerId": null,
       "originalText": "Single directory for all services",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     }
   ],
   "appState": {
