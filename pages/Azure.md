@@ -230,6 +230,8 @@
 				- .1 - AZ GW
 				- .2 and .3 - DNS
 				- .255 broadcast
+			- VNET Manager
+				- makes network peers easy between VNETs
 			-
 		-
 -
