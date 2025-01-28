@@ -226,8 +226,10 @@
 			- applies to the **control plane** not at the **data plane**
 		- #### VNET
 			- 5 IPs are reserved
-				- .0
+				- .0 - Network Address
 				- .1 - AZ GW
+				- .2 and .3 - DNS
+				- .255 broadcast
 			-
 		-
 -
