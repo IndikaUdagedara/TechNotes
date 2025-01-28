@@ -217,6 +217,7 @@
 				  ![image.png](../assets/image_1738032237062_0.png)
 			- **Initiative** is a collection of Policies
 		-
+		-
 -
 -
 -
