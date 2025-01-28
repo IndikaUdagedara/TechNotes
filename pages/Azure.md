@@ -216,7 +216,9 @@
 				- ...
 				  ![image.png](../assets/image_1738032237062_0.png)
 			- **Initiative** is a collection of Policies
-		-
+		- #### Locks
+			- virtual machines, subscriptions, and resource groups support locks
+			- management groups or storage account data do NOT support locks
 		-
 -
 -
