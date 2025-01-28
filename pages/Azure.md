@@ -220,6 +220,11 @@
 		- #### Locks
 			- virtual machines, subscriptions, and resource groups support locks
 			- management groups or storage account data do NOT support locks
+			- two types of lock
+				- CANNOTDELETE
+				- READONLY
+			- applies to the **control plane** not at the **data plane**
+			-
 		-
 -
 -
