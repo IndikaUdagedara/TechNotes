@@ -200,6 +200,7 @@
 			- Admin Units (AU)
 				- Can add Users or Groups to Admin Units
 				- Can grant Roles at AU level (as a safety features the Roles added to Groups do not get extended to Users in a Group)
+			- External collaboration settings let you specify which roles in your organization can invite external users for B2B collaboration
 		- #### Management Groups
 			- Can be used to
 				- RBAC
