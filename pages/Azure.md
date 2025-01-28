@@ -140,6 +140,7 @@
 			- Entra tiers
 				- Free
 				- P1
+					- Supports self-service password writeback
 					- MFA
 					- 99.9% SLA
 					- Conditional Access based on device, group, location
