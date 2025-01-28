@@ -208,6 +208,7 @@
 			- Hybrid Benefit - Reduce cost when on-prem licences are available
 			- Azure reservations - specific service/region
 			- Savings Plans - flexible compute
+		- #### PO
 			-
 		-
 -
