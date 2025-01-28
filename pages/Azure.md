@@ -224,6 +224,10 @@
 				- CANNOTDELETE
 				- READONLY
 			- applies to the **control plane** not at the **data plane**
+		- #### VNET
+			- 5 IPs are reserved
+				- .0
+				- .1 - AZ GW
 			-
 		-
 -
