@@ -232,6 +232,7 @@
 				- .255 broadcast
 			- VNET Manager
 				- makes network peers easy between VNETs
+				- allow configuration
 			-
 		-
 -
