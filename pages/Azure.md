@@ -321,8 +321,8 @@
 							- Multi-site -> multiple FQDN
 				- L4 - AZ LB
 			- Global
-		- Traffic Manager (global)
-			-
+				- Traffic Manager (DNS based
+					-
 -
 -
 -
