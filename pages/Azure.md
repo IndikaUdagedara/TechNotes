@@ -310,16 +310,18 @@
 				- Developer
 					- Access peered VNETs
 				- Standard
-		- #### Load balancer (Regional)
-			- L7 - App GW
-				- WAF can be added
-				- SSL termination
-				- Listener
-					- Types
-						- Basic -> single FQDN
-						- Multi-site -> multiple FQDN
-			- L4 - AZ LB
-		- #### Traffic Manager (global)
+		- #### Load balancer
+			- Regional
+				- L7 - App GW
+					- WAF can be added
+					- SSL termination
+					- Listener
+						- Types
+							- Basic -> single FQDN
+							- Multi-site -> multiple FQDN
+				- L4 - AZ LB
+			- Global
+		- Traffic Manager (global)
 			-
 -
 -
