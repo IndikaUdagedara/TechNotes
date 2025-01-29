@@ -325,6 +325,10 @@
 				- Cross-region Load Balancer (L4)
 				- Azure Front-door (L7)
 					- WAF can be added
+		- #### Storage Account
+			- SKU
+				- GPV2
+				- Premium
 -
 -
 -
