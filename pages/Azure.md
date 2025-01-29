@@ -243,7 +243,8 @@
 				- allow configuration
 					- create network groups (static and dynamic)
 					  ![image.png](../assets/image_1738111362581_0.png)
-					-
+				- Override NSG rules
+					- ![image.png](../assets/image_1738111477374_0.png)
 		-
 -
 -
