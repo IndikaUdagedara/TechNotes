@@ -250,7 +250,7 @@
 				- Source
 					- IP
 					- Service Tag (Azure services)
-					- Application Tag {}
+					- Application Tag
 -
 -
 -
