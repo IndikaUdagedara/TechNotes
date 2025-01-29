@@ -329,6 +329,9 @@
 			- SKU
 				- GPV2
 				- Premium
+			- Types
+				- Blob
+				-
 -
 -
 -
