@@ -352,6 +352,8 @@
 				- Cold
 				- Archive (offline - not accessible)
 				  ![image.png](../assets/image_1738123749752_0.png)
+			- Object Replication
+				- can copy object to any region not just the paired region (which is the case in GRS/GZRS)
 -
 -
 -
