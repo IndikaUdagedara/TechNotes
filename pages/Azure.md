@@ -335,6 +335,10 @@
 				- Table
 				- Queue
 			- Redundancy
+				- LRS
+				- ZRS
+				-
+				- ![image.png](../assets/image_1738123252176_0.png)
 				-
 -
 -
