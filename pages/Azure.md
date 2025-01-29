@@ -275,6 +275,7 @@
 			- Azure DNS: 168.63.129.16 (only accessible from VNET)
 			- Azure Private DNS resolver: access Azure DNS from on-prem
 		- #### On-Prem -> Azure
+		  id:: 67998bd8-540a-47be-a214-f489e49b240c
 			- VPN
 				- Policy based (legacy)
 				- Route based (recommended)
@@ -285,9 +286,14 @@
 				  ![image.png](../assets/image_1738116492183_0.png)
 				- ![image.png](../assets/image_1738116304266_0.png){:height 465, :width 589}
 		- #### Virtual WAN
+			- Simplifies ((67998bd8-540a-47be-a214-f489e49b240c))
 			- SKUs
 				- Basic
+					- S2S VPN
 				- Standard
+					- Express Route
+					- P2S
+					- S2S
 			-
 		-
 -
