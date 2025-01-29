@@ -321,7 +321,7 @@
 							- Multi-site -> multiple FQDN
 				- L4 - AZ LB
 			- Global
-				- Traffic Manager (DNS based
+				- Traffic Manager (DNS based routing)
 					-
 -
 -
