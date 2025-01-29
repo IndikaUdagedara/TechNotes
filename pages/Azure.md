@@ -301,6 +301,8 @@
 			- ![image.png](../assets/image_1738117106333_0.png)
 		- #### Private endpoints
 			- A private NIC of the PaaS is attached to a VNET
+			- Can be used for own services not just PaaS
+			  ![image.png](../assets/image_1738119274127_0.png)
 			-
 		-
 -
