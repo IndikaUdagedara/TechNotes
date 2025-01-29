@@ -365,8 +365,8 @@
 					- Replicate on-prem -> Cloud
 					  ![image.png](../assets/image_1738124317880_0.png)
 					-
-			-
-				-
+			- Shared Access Signature - generated using Access Keys
+				- Can be applied at granular levels
 -
 -
 -
