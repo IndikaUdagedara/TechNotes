@@ -355,6 +355,7 @@
 					  ![image.png](../assets/image_1738123749752_0.png)
 				- Object Replication
 					- can copy object to any region not just the paired region (which is the case in GRS/GZRS)
+					- Object replication can be used to replicate blobs between storage accounts. Before configuring object replication, you must enable blob versioning for both storage accounts, and you must enable the change feed for the source account.
 			- Files
 				- Tiers
 					- Txn optimised
