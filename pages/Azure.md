@@ -314,6 +314,10 @@
 			- L7 - App GW
 				- WAF can be added
 				- SSL termination
+				- Listener
+					- Types
+						- Basic single FQDN
+						- Multi-site
 			- L4 - AZ LB
 -
 -
