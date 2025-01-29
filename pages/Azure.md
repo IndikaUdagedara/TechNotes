@@ -370,6 +370,7 @@
 			- Encryption
 				- Platform Managed Key
 				- Customer Managed Key
+				- Encryption Scopes - can be applied at container levels
 -
 -
 -
