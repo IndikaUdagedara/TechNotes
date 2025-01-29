@@ -240,7 +240,7 @@
 				- Spoke end of the peer
 					- ![image.png](../assets/image_1738111140044_0.png)
 				- Spokes are not transitive
-					- Add an AZ firewall
+					- Add an AZ firewall and configure it to do spoke -> spoke routing
 		-
 -
 -
