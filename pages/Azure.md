@@ -280,6 +280,7 @@
 				- Route based (recommended)
 			- Express Route
 				- Private peering: Connect on-prem to VNET
+				- Microsoft peering: Connect on-prem to AZ
 				- Global reach: Connect multiple on-prem sites via AZ backbone
 				- ![image.png](../assets/image_1738116304266_0.png){:height 465, :width 589}
 				-
