@@ -101,6 +101,7 @@
 -
 - ## Certificates
 	- ### Administrator Associate
+		- {{video https://www.youtube.com/watch?v=0Knf9nub4-k}}
 		- #### Learning path
 			- https://learn.microsoft.com/en-us/plans/50nrtozg28d354
 			- https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification
@@ -249,6 +250,7 @@
 			- NSG
 			- {{video https://www.youtube.com/watch?v=0Knf9nub4-k}}
 				- {{youtube-timestamp 0}}
+				- {{youtube-timestamp 3934}}
 -
 -
 -
