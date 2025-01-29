@@ -311,7 +311,8 @@
 					- Access peered VNETs
 				- Standard
 		- #### Load balancer
-			-
+			- L7 - App GW
+			- L4 - AZ LB
 -
 -
 -
