@@ -262,8 +262,10 @@
 			- SKU
 				- Basic
 				- Standard
+					- Web content filtering
 					- Custom DNS
 				- Premium
+					- TLS in/out termination
 					- URL filtering
 -
 -
