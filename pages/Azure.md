@@ -294,6 +294,8 @@
 					- Express Route
 					- P2S
 					- S2S
+		- #### Service endpoints
+			- ![image.png](../assets/image_1738117106333_0.png)
 			-
 		-
 -
