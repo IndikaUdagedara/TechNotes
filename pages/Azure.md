@@ -234,7 +234,8 @@
 				- makes network peers easy between VNETs
 				- allow configuration
 			- Peering
-				- Hub and Spoke - s
+				- Hub and Spoke - spokes are not transitive
+				-
 			-
 		-
 -
