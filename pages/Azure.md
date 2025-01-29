@@ -371,6 +371,7 @@
 				- Platform Managed Key
 				- Customer Managed Key
 				- Encryption Scopes - can be applied at container levels
+			- ![image.png](../assets/image_1738127556535_0.png)
 -
 -
 -
