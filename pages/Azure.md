@@ -242,6 +242,8 @@
 				- makes network peers easy between VNETs
 				- allow configuration
 					- create network groups (static and dynamic)
+					  ![image.png](../assets/image_1738111362581_0.png)
+					-
 		-
 -
 -
