@@ -242,7 +242,7 @@
 				- makes network peers easy between VNETs
 				- allow configuration
 					- create network groups (static and dynamic)
-					  ![image.png](../assets/image_1738111362581_0.png)
+					  ![image.png](../assets/image_1738111362581_0.png){:height 160, :width 240}
 				- Override NSG rules
 					- Security Admin Rules
 					- ![image.png](../assets/image_1738111570084_0.png)
@@ -250,7 +250,8 @@
 				- Source
 					- IP
 					- Service Tag (Azure services)
-					- Application Tag
+					- Application Security Group
+					   {{video https://youtu.be/0Knf9nub4-k?t=5677}}
 -
 -
 -
