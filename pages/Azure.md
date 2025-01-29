@@ -344,7 +344,8 @@
 				- Portal
 				- Storage Explore
 				- `AzCopy` CLI
-				- Data Box - large scale data
+				- Data Box / Disk - large scale data migrations
+				- Data Factory - ETL process
 -
 -
 -
