@@ -295,6 +295,7 @@
 					- P2S
 					- S2S
 		- #### Service endpoints
+			- VNET accessible endpoint to Services e.g., Storage Account
 			- ![image.png](../assets/image_1738117106333_0.png)
 			-
 		-
