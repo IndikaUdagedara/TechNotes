@@ -369,7 +369,7 @@
 				- Can be applied at granular levels
 			- Encryption
 				- Platform Managed Key
-				- Customer Man
+				- Customer Managed Key
 -
 -
 -
