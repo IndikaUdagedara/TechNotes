@@ -316,8 +316,8 @@
 				- SSL termination
 				- Listener
 					- Types
-						- Basic single FQDN
-						- Multi-site
+						- Basic -> single FQDN
+						- Multi-site -> multiple FQDN
 			- L4 - AZ LB
 -
 -
