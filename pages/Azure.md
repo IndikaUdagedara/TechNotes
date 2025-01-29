@@ -253,6 +253,10 @@
 					- Application Security Group
 						- Tag an application NIC
 						- {{video https://youtu.be/0Knf9nub4-k?t=5677}}
+		- Azure Firewall
+			- DNAT
+			- SNAT
+			- L4 Rules
 -
 -
 -
