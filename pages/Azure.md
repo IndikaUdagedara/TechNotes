@@ -346,6 +346,11 @@
 				- `AzCopy` CLI
 				- Data Box / Disk - large scale data migrations
 				- Data Factory - ETL process
+			- Tiers (Blob)
+				- Hot
+				- Cool
+				- Cold
+				- Archive
 -
 -
 -
