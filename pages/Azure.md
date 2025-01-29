@@ -351,6 +351,7 @@
 				- Cool
 				- Cold
 				- Archive
+				  ![image.png](../assets/image_1738123749752_0.png)
 -
 -
 -
