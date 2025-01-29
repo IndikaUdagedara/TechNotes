@@ -322,7 +322,7 @@
 				- L4 - AZ LB
 			- Global
 				- Traffic Manager (DNS based routing)
-					-
+				- Cross-region Load Balancer
 -
 -
 -
