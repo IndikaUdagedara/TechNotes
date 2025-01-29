@@ -322,7 +322,9 @@
 				- L4 - AZ LB
 			- Global
 				- Traffic Manager (DNS based routing)
-				- Cross-region Load Balancer
+				- Cross-region Load Balancer (L4)
+				- Azure Front-door (L7)
+					- WAF can be added
 -
 -
 -
