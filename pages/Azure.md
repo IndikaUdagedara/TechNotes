@@ -310,6 +310,8 @@
 				- Developer
 					- Access peered VNETs
 				- Standard
+		- #### Load balancer
+			-
 -
 -
 -
