@@ -101,7 +101,6 @@
 -
 - ## Certificates
 	- ### Administrator Associate
-		- {{video https://www.youtube.com/watch?v=0Knf9nub4-k}}
 		- #### Learning path
 			- https://learn.microsoft.com/en-us/plans/50nrtozg28d354
 			- https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/?practice-assessment-type=certification
@@ -248,9 +247,10 @@
 					- Security Admin Rules
 					- ![image.png](../assets/image_1738111570084_0.png)
 			- NSG
-			- {{video https://www.youtube.com/watch?v=0Knf9nub4-k}}
-				- {{youtube-timestamp 0}}
-				- {{youtube-timestamp 3934}}
+				- Source
+					- IP
+					- Service Tag (Azure services)
+					- Application Tag {}
 -
 -
 -
