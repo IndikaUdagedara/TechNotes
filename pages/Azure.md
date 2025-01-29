@@ -313,6 +313,7 @@
 		- #### Load balancer
 			- L7 - App GW
 				- WAF can be added
+				- SSL termination
 			- L4 - AZ LB
 -
 -
