@@ -272,8 +272,8 @@
 			- Public zone
 			- Private zone
 				- VNET auto-register allows to automatically register DNS names of resources e.g., VM
-			- Azure DNS
-				- 168.63.129.16
+			- Azure DNS: 168.63.129.16 (only accessible from VNET)
+			- Azure Private DNS resolver
 		-
 -
 -
