@@ -246,6 +246,8 @@
 				- Override NSG rules
 					- Security Admin Rules
 					- ![image.png](../assets/image_1738111570084_0.png)
+			- NSG
+				-
 		-
 -
 -
