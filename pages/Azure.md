@@ -338,9 +338,9 @@
 				- LRS - 3 copies in same AZ in region
 				- ZRS - 3 copies spread in AZs in region
 				- GRS - 3 copies in one AZ in region A and 3 copies on one AZ in region B
-				- GZRS - 3 copies spread in one AZ in region A and 3 copies in one AZ in region B
+				- GZRS - 3 copies spread in one AZ in region A and 3 copies in one AZ in region B **READ_ACCESS** modifier allows to read from replicated region
 				- ![image.png](../assets/image_1738123252176_0.png)
-				-
+			- Portal or Storage Explore
 -
 -
 -
