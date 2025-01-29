@@ -269,6 +269,8 @@
 					- URL filtering
 			- Needs UDR to send traffic to Firewall
 		- #### DNS
+			- Public zone
+			- Private zone
 		-
 -
 -
