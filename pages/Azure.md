@@ -247,8 +247,8 @@
 					- Security Admin Rules
 					- ![image.png](../assets/image_1738111570084_0.png)
 			- NSG
-				-
-		-
+			- {{video https://www.youtube.com/watch?v=0Knf9nub4-k}}
+				- {{youtube-timestamp 0}}
 -
 -
 -
