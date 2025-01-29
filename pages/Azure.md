@@ -367,6 +367,9 @@
 					-
 			- Shared Access Signature - generated using Access Keys
 				- Can be applied at granular levels
+			- Encryption
+				- Platform Managed Key
+				- Customer Man
 -
 -
 -
