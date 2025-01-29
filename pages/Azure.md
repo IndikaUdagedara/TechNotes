@@ -331,7 +331,9 @@
 				- Premium
 			- Types
 				- Blob
-				-
+				- File
+				- Table
+				- Queue
 -
 -
 -
