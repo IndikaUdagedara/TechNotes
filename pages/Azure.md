@@ -336,9 +336,9 @@
 				- Queue
 			- Redundancy - 3 copies always
 				- LRS - 3 copies in same AZ in region
-				- ZRS - 3 copies in each AZ in region
-				- GRS - 3 copies in one AZ in region A and 3 copies on on
-				- GZRS
+				- ZRS - 3 copies spread in AZs in region
+				- GRS - 3 copies in one AZ in region A and 3 copies on one AZ in region B
+				- GZRS -3 copies spread in one AZ in region A and 3 copies in one AZ in region B
 				- ![image.png](../assets/image_1738123252176_0.png)
 				-
 -
