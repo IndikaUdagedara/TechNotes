@@ -230,9 +230,6 @@
 				- .1 - AZ GW
 				- .2 and .3 - DNS
 				- .255 broadcast
-			- VNET Manager
-				- makes network peers easy between VNETs
-				- allow configuration
 			- Peering
 				- Hub and Spoke
 				- Hub end of the peer
@@ -241,6 +238,10 @@
 					- ![image.png](../assets/image_1738111140044_0.png)
 				- Spokes are not transitive
 					- Add an AZ firewall and configure it to do spoke -> spoke routing
+			- VNET Manager
+				- makes network peers easy between VNETs
+				- allow configuration
+					- create network groups (static and dynamic)
 		-
 -
 -
