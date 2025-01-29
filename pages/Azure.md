@@ -304,7 +304,12 @@
 			- Can be used for own services not just PaaS
 			  ![image.png](../assets/image_1738119274127_0.png)
 			-
-		-
+		- #### Bastion
+			- SKUs
+				- Basic
+				- Developer
+					- Access peered VNETs
+				- Standard
 -
 -
 -
