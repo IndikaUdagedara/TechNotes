@@ -334,10 +334,11 @@
 				- File
 				- Table
 				- Queue
-			- Redundancy
-				- LRS
-				- ZRS
-				-
+			- Redundancy - 3 copies always
+				- LRS - 3 copies in same AZ in region
+				- ZRS - 3 copies in each AZ in region
+				- GRS - 3 copies in one AZ in region A and 3 copies on on
+				- GZRS
 				- ![image.png](../assets/image_1738123252176_0.png)
 				-
 -
