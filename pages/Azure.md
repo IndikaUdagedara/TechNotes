@@ -350,7 +350,7 @@
 				- Hot
 				- Cool
 				- Cold
-				- Archive
+				- Archive (offline - not accessible)
 				  ![image.png](../assets/image_1738123749752_0.png)
 -
 -
