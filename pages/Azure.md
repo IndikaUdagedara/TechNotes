@@ -373,6 +373,9 @@
 				- Encryption Scopes - can be applied at container levels
 			- Managed disks
 				- Belongs to a Storage Account
+				  ![image.png](../assets/image_1738127725923_0.png)
+				- Encryption
+					- "Disk Encryption Set" uses keys in KV
 				-
 				-
 -
