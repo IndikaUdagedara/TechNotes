@@ -376,6 +376,10 @@
 				  ![image.png](../assets/image_1738127725923_0.png)
 				- Encryption
 					- "Disk Encryption Set" uses keys in KV
+					- OS level encryption
+						- BitLocker (Windows)
+						- DM-Crypt (Linux)
+						  ![image.png](../assets/image_1738127841302_0.png)
 				-
 				-
 -
