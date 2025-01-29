@@ -312,6 +312,7 @@
 				- Standard
 		- #### Load balancer
 			- L7 - App GW
+				- WAF can be added
 			- L4 - AZ LB
 -
 -
