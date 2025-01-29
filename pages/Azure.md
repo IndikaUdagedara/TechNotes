@@ -233,7 +233,8 @@
 			- VNET Manager
 				- makes network peers easy between VNETs
 				- allow configuration
-				-
+			- Peering
+				- Hub and Spoke - s
 			-
 		-
 -
