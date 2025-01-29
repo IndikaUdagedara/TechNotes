@@ -297,10 +297,10 @@
 		- #### Service endpoints
 			- VNET accessible endpoint to Services e.g., Storage Account
 			- PaaS service is still separate to your VNet, and traffic is leaving your virtual network to access the PaaS service. However, the PaaS service is configured to be able to identify traffic coming from your virtual network
-			- Traffic still accesse
+			- Traffic still routed via internet
 			- ![image.png](../assets/image_1738117106333_0.png)
 		- #### Private endpoints
-			-
+			- A private NIC of the PaaS is attached to a VNET
 			-
 		-
 -
