@@ -401,7 +401,8 @@
 						- KEDA better than HPA
 						- ClusterAutoScalar
 			- #### App Service
-				- App Service Plan
+				- App Service Plan (dedicates capacity e.g., Node Pool)
+				- multiple apps can be deployed to same Plan
 				-
 -
 -
