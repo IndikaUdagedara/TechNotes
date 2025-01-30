@@ -396,6 +396,10 @@
 						- Kubenet (not popular)
 						- AZ CNI (Pod and Nodes share same IP space)
 						- Overlays (Uses own CIDR)
+					- Scaling
+						- HorizontalPodAutoscalar (HPA)
+						- KEDA better than HPA
+						- ClusterAutoScalar
 				-
 -
 -
