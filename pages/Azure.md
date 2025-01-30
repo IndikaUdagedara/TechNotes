@@ -400,6 +400,8 @@
 						- HorizontalPodAutoscalar (HPA)
 						- KEDA better than HPA
 						- ClusterAutoScalar
+			- #### App Service
+				- App Service Plan
 				-
 -
 -
