@@ -409,7 +409,7 @@
 					- Storage
 					- Event Hub
 					- Analaytics Workspace
-				- Analytics Logs (30)
+				- Analytics Logs (30, 60 days upto 2 years)
 				- Basic Logs (8 days retention)
 			- #### Alerts
 				- Processing Rules
