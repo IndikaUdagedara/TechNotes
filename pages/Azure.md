@@ -390,7 +390,8 @@
 			- #### Containers
 				- AZ Container Instances
 				- AKS
-					-
+					- Control Plane (Managed)
+					- Node Pools
 				-
 -
 -
