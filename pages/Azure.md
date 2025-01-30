@@ -393,7 +393,9 @@
 					- Control Plane (Managed)
 					- Node Pools
 					- Networking
-						- Kubenet
+						- Kubenet (not popular)
+						- AZ CNI (Pod and Nodes share same IP space)
+						- Overlays (Uses own CIDR)
 				-
 -
 -
