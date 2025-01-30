@@ -382,7 +382,11 @@
 						- BitLocker (Windows)
 						- DM-Crypt (Linux)
 						  ![image.png](../assets/image_1738127841302_0.png)
-				-
+			- #### VM
+				- Scaling Profile
+					- VM template
+					- min/max
+					- scale rules
 				-
 -
 -
