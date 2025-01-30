@@ -409,6 +409,8 @@
 					- Storage
 					- Event Hub
 					- Analaytics Workspace
+				- Analytics Logs
+				- Basic Logs (8 days)
 			- #### Alerts
 				- Processing Rules
 					- Suppress
