@@ -403,6 +403,12 @@
 			- #### App Service
 				- App Service Plan (dedicates capacity e.g., Node Pool)
 				- multiple apps can be deployed to same Plan
+			- Logs
+				- Needs to be enabled via Diagnostic Settings
+				- Can be sent to
+					- Storage
+					- Event Hub
+					- Analaytics Workspace
 				-
 -
 -
