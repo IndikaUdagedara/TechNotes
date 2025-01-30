@@ -409,6 +409,10 @@
 					- Storage
 					- Event Hub
 					- Analaytics Workspace
+			- #### Alerts
+				- Processing Rules
+					- Suppress
+					-
 				-
 -
 -
