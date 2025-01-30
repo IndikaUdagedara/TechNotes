@@ -392,6 +392,8 @@
 				- AKS
 					- Control Plane (Managed)
 					- Node Pools
+					- Networking
+						- Kubenet
 				-
 -
 -
