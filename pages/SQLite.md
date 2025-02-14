@@ -5,5 +5,12 @@
   ```
 - open database
 	- `sqlite3 <filename>`
--
+- show schema
+	- ```
+	  # list all tables
+	  > .tables 
+	  
+	   # schema of table
+	  > .schema <table-name>
+	  ```
 -
