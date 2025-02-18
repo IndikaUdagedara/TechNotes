@@ -342,7 +342,7 @@
 				- ![image.png](../assets/image_1738123252176_0.png)
 			- Access via
 				- Portal
-				- Storage Explore
+				- Storage Explorer
 				- `AzCopy` CLI
 				- Data Box / Disk - large scale data migrations
 				- Data Factory - ETL process
