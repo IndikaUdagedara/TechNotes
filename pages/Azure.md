@@ -312,14 +312,14 @@
 				- Standard
 		- #### Load balancer
 			- Regional LBs
-				- App GW
+				- App GW (L7)
 					- WAF can be added
 					- SSL termination
 					- Listener
 						- Types
 							- Basic -> single FQDN
 							- Multi-site -> multiple FQDN
-				- L4 - AZ LB
+				- Azure LB (L4)
 			- Global LBs
 				- Traffic Manager (DNS based routing)
 				- Cross-region Load Balancer (L4)
