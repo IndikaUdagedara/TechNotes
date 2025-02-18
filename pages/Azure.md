@@ -2,7 +2,7 @@
   id:: 678f2fc3-d022-4a91-bdb4-ebd39d2ba0dd
   [[draws/2025-01-21-16-25-26.excalidraw]]
 - ## Concepts
-	- Tags and
+	- Tags and Lock can be assigned to levels down from Subscription
 - ## Fundamentals
 	- **Regions/AZs**
 		- Azure regions - each region is paired with another in the same country e.g. AU Central 1 and AU Central 2.
