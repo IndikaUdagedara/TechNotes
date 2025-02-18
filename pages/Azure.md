@@ -355,7 +355,9 @@
 					  ![image.png](../assets/image_1738123749752_0.png)
 				- Object Replication
 					- can copy object to any region not just the paired region (which is the case in GRS/GZRS)
-					- Object replication can be used to replicate blobs between storage accounts. Before configuring object replication, you must enable blob versioning for both storage accounts, and you must enable the change feed for the source account.
+					- Object replication can be used to replicate blobs between storage accounts. Before configuring object replication
+						- enable blob versioning for both storage accounts
+						- enable the change feed for the source account.
 				- A timed-based retention policy or legal hold policies can be applied to block deletion. Immutability policies can be scoped to a blob version or to a container.
 			- Files
 				- Tiers
