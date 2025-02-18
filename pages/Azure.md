@@ -311,8 +311,8 @@
 					- Access peered VNETs
 				- Standard
 		- #### Load balancer
-			- Regional
-				- L7 - App GW
+			- Regional LBs
+				- App GW
 					- WAF can be added
 					- SSL termination
 					- Listener
@@ -320,7 +320,7 @@
 							- Basic -> single FQDN
 							- Multi-site -> multiple FQDN
 				- L4 - AZ LB
-			- Global
+			- Global LBs
 				- Traffic Manager (DNS based routing)
 				- Cross-region Load Balancer (L4)
 				- Azure Front-door (L7)
