@@ -4,7 +4,7 @@
 - ## Key points
 	- Tags and Lock can be assigned to levels down from Subscription
 	- Security Admin role is for Azure Defender
-	- User Access Admin role
+	- User Access Admin role can manage RBAC
 	-
 - ## Fundamentals
 	- **Regions/AZs**
