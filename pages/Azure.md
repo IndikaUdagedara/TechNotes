@@ -6,7 +6,8 @@
 	- Security Admin role is for Azure Defender
 	- User Access Admin role can manage RBAC
 	- Entra
-		- If AD sync is enabled -  cannot be modified in Entra
+		- If AD sync is enabled - attributes cannot be modified in Entra. Can be only from AD
+		- Usage Location can be modified in Entra
 	-
 - ## Fundamentals
 	- **Regions/AZs**
