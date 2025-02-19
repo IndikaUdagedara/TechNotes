@@ -5,6 +5,8 @@
 	- Tags and Lock can be assigned to levels down from Subscription
 	- Security Admin role is for Azure Defender
 	- User Access Admin role can manage RBAC
+	- Entra
+		- If AD sync is enabled -  cannot be modified in Entra
 	-
 - ## Fundamentals
 	- **Regions/AZs**
