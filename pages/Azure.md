@@ -12,7 +12,8 @@
 		- Fault Domains - max 3
 		- Update Domains - max 20
 	- `SetupComplete.cmd` batch file in the `%windir%\setup\scripts` directory will run on Startup
-	- `Add-AzVhd` upload a
+	- `Add-AzVhd` upload a VHD image to Azure
+	-
 	-
 	-
 - ## Fundamentals
