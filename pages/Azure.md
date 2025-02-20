@@ -8,7 +8,9 @@
 	- Entra
 		- If AD sync is enabled - attributes cannot be modified in Entra. Can be only from AD
 		- Usage Location can be modified in Entra
-	- ==Availability Sets== #TODO
+	- Availability Sets
+		- Fault Domains - max 3
+		- Update Domains - max 20
 	-
 	-
 - ## Fundamentals
