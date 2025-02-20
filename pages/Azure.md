@@ -8,7 +8,7 @@
 	- Entra
 		- If AD sync is enabled - attributes cannot be modified in Entra. Can be only from AD
 		- Usage Location can be modified in Entra
-	- ==Availability Sets==
+	- ==Availability Sets== #TODO
 	-
 	-
 - ## Fundamentals
