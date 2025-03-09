@@ -18,7 +18,8 @@
 	      
 	    
 	  ```
-	- ```
+	- Manage project using `uv`
+	  ```
 	  # initialise project
 	  # this creates a venv as well
 	  uv init
@@ -34,3 +35,4 @@
 	  uv sync
 	  
 	  ```
+	- run
