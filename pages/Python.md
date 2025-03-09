@@ -18,5 +18,11 @@
 	    
 	  ```
 	- ```
+	  # initialise project
 	  uv init
+	  
+	  # install external pkg
+	  uv add <pkg>
+	  
+	  # e
 	  ```
