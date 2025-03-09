@@ -35,4 +35,4 @@
 	  uv sync
 	  
 	  ```
-	- run
+	- run `uv pip install -e .` to install it in editable mode which means packages are available in python path and code can be edited
