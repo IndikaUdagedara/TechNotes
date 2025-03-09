@@ -5,7 +5,8 @@
 	- The distinction between *module* and *package* seems to hold just at the file system level. When you import a *module* or a *package*, the corresponding object created by Python is always of type `module`
 	-
 - ## Python project example
-	- ```
+	- Dir structure
+	  ```
 	  repo/
 	  	.git	
 	      pkg/
@@ -19,10 +20,17 @@
 	  ```
 	- ```
 	  # initialise project
+	  # this creates a venv as well
 	  uv init
 	  
 	  # install external pkg
 	  uv add <pkg>
 	  
-	  # e
+	  # checkin uv.lock
+	  
+	  
+	  # from a project containing uv.lock
+	  # run uv sync to install dependencies
+	  uv sync
+	  
 	  ```
