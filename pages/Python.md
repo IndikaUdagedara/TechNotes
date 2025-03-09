@@ -5,16 +5,18 @@
 	- The distinction between *module* and *package* seems to hold just at the file system level. When you import a *module* or a *package*, the corresponding object created by Python is always of type `module`
 	-
 - ## Python project example
-- ```
-  repo/
-  	.git
-      pkg/
-      	__init__.py
-          main.py
-          tests/
-          	test_xyz.py
-      pyproject.toml
-      
-    
-  ```
--
+	- ```
+	  repo/
+	  	.git	
+	      pkg/
+	      	__init__.py
+	          main.py
+	          tests/
+	          	test_xyz.py
+	      pyproject.toml
+	      
+	    
+	  ```
+	- ```
+	  uv init
+	  ```
