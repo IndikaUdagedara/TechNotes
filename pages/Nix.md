@@ -146,6 +146,9 @@
   ```
 -
 - ## Module
+- A nix module is a Nix function with five **automatically generated, automatically injected, and declaration-free parameters** provided by the module system:
+	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/nixos-flake-and-module-system
+-
 -
 - ## References
 - ### General
