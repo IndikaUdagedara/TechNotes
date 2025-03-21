@@ -154,6 +154,24 @@
 	- `pkgs`: A collection containing all nixpkgs packages, along with several related utility functions.
 		- At the beginner stage, you can consider its default value to be `nixpkgs.legacyPackages."${system}"`, and the value of `pkgs` can be customized through the `nixpkgs.pkgs` option.
 	- `modulesPath`: A parameter available only in NixOS, which is a path pointing to [nixpkgs/nixos/modules](https://github.com/NixOS/nixpkgs/tree/nixos-24.11/nixos/modules).
+- Structure of a `module` is
+	- ```
+	  { config, pkgs, ... }:
+	  
+	  {
+	    imports =
+	      [ # import other modules here
+	      ];
+	  
+	    options = {
+	      # ...
+	    };
+	  
+	    config = {
+	      # ...
+	    };
+	  }
+	  ```
 -
 - ## References
 - ### General
