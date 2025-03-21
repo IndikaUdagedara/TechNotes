@@ -146,8 +146,7 @@
   ```
 -
 - ## Module
-- A nix module is a Nix function with five **automatically generated, automatically injected, and declaration-free parameters** provided by the module system:
-	- https://nixos-and-flakes.thiscute.world/nixos-with-flakes/nixos-flake-and-module-system
+- A nix module is a Nix function with five **automatically generated, automatically injected, and declaration-free parameters** provided by the module system ([reference](https://nixos-and-flakes.thiscute.world/nixos-with-flakes/nixos-flake-and-module-system)):
 	- `lib`: A built-in function library included with nixpkgs, offering many practical functions for operating Nix expressions.
 		- For more information, see [https://nixos.org/manual/nixpkgs/stable/#id-1.4](https://nixos.org/manual/nixpkgs/stable/#id-1.4).
 	- `config`: A set of all options' values in the current environment, which will be used extensively in the subsequent section on the module system.
