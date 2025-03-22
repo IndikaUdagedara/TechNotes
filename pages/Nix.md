@@ -104,8 +104,7 @@
 - Minimal flake referencing another flake
 	- Add other flake to registry under name `local`
 		- `nix registry add local ~/Nix`
-	- ```
-	  {
+	- {
 	    inputs = {
 	      # nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-24.11-darwin";
 	      local.url = "local";
@@ -129,7 +128,6 @@
 	          };
 	        });
 	  }
-	  ```
 - ## CLI
 - Build package
   `nix-build -E 'with import <nixpkgs> {}; callPackage ./package.nix {}'`
