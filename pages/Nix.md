@@ -106,28 +106,28 @@
 		- `nix registry add local ~/Nix`
 	- {
 	    inputs = {
-	      # nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-24.11-darwin";
-	      local.url = "local";
-	      nixpkgs = {follows = "local/nixpkgs";};
-	      flake-utils = {
-	        url = "github:numtide/flake-utils";
-	      };
-	    };
-	    outputs = { nixpkgs, flake-utils, ... }:
-	      flake-utils.lib.eachDefaultSystem (system:
-	        let
-	          pkgs = import nixpkgs {
-	            inherit system;
-	          };
-	        in
-	        {
-	          devShells.default = pkgs.mkShell {
-	            packages = with pkgs; [
-	              nodejs-18_x
-	            ];
-	          };
-	        });
-	  }
+- # nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-24.11-darwin";
+       local.url = "local";
+       nixpkgs = {follows = "local/nixpkgs";};
+       flake-utils = {
+         url = "github:numtide/flake-utils";
+       };
+     };
+     outputs = { nixpkgs, flake-utils, ... }:
+       flake-utils.lib.eachDefaultSystem (system:
+         let
+           pkgs = import nixpkgs {
+             inherit system;
+           };
+         in
+         {
+           devShells.default = pkgs.mkShell {
+             packages = with pkgs; [
+               nodejs-18_x
+             ];
+           };
+         });
+   }
 - ## CLI
 - Build package
   `nix-build -E 'with import <nixpkgs> {}; callPackage ./package.nix {}'`
