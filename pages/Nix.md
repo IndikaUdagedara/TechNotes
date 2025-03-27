@@ -94,6 +94,8 @@
 -
 -
 - ## Flakes
+- A flake is a file that contains a nix expression which can be used for multiple purposes such as
+	- system configuration with `nixos-rebuild`
 - Flakes use new nix CLI `nix xxx` not `nix-xxx`
 - With flakes, `NIX_PATH` becomes irrelevant as the flake defines the `nixpkgs`
 - However, when using commands like `nix-shell -p xxx` or `nix shell <nixpkgs>#xxx`  it'll use `nixpkgs` from NIX_PATH
