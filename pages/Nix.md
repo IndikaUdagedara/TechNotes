@@ -95,7 +95,9 @@
 -
 - ## Flakes
 - A flake is a file that contains a nix expression which can be used for multiple purposes such as
-	- system configuration with `nixos-rebuild`
+	- system configuration with `nixos-rebuild` or `darwin-rebuild`
+	- create a shell environment `nix shell`
+	- build a package `nix build`
 - Flakes use new nix CLI `nix xxx` not `nix-xxx`
 - With flakes, `NIX_PATH` becomes irrelevant as the flake defines the `nixpkgs`
 - However, when using commands like `nix-shell -p xxx` or `nix shell <nixpkgs>#xxx`  it'll use `nixpkgs` from NIX_PATH
@@ -132,6 +134,7 @@
 		         });
 		   }
 		  ```
+	- Use a flake to build a package
 - ## CLI
 - Build package
   `nix-build -E 'with import <nixpkgs> {}; callPackage ./package.nix {}'`
