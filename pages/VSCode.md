@@ -1,5 +1,6 @@
-
-
+- [[Vim]]
+	- keybindings https://gist.github.com/nikolovlazar/1174876ab2769c52ac9fc1534c557d70
+	-
 - `cmd+F12`:  Go to implementation
 - `ctrl+-` : Go to the caller (out of function navigated by F12)
 - [[Vim]]
