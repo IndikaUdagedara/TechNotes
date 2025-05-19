@@ -1,2 +1,3 @@
 - LSP config
-	- add
+	- add tool to [[Nix]]
+	- add relevant LS setup function to `plugins/lsp.lua` e.g., `require('lspconfig').nixd.setup({})`
