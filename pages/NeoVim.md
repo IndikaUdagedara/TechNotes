@@ -1,2 +1,2 @@
 - LSP config
-	-
+	- add
