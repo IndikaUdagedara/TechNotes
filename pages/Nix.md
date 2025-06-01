@@ -178,8 +178,8 @@
 - ## CLI
 - Build package
   `nix-build -E 'with import <nixpkgs> {}; callPackage ./package.nix {}'`
-- Install from nixhub
-  `nix shell nixpkgs/4ae2e647537bcdbb82265469442713d066675275#azure-cli`
+	- Install from nixhub
+	  `nix shell nixpkgs/4ae2e647537bcdbb82265469442713d066675275#azure-cli`
 - Repair cache
   `nix-store --verify --check-contents --repair`
 - Garbage collect
