@@ -24,6 +24,7 @@
 	  # this creates a venv as well
 	  uv init
 	  
+	  uv venv
 	  # install external pkg
 	  uv add <pkg>
 	  
