@@ -177,6 +177,7 @@
   `nix-build -E 'with import <nixpkgs> {}; callPackage ./package.nix {}'`
 - Install from nixhub
   `nix shell nixpkgs/4ae2e647537bcdbb82265469442713d066675275#azure-cli`
+  `nix shell nixpkgs#poppler`
 - Repair cache
   `nix-store --verify --check-contents --repair`
 - Garbage collect
