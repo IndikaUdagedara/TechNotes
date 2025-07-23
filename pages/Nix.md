@@ -5,8 +5,11 @@
 	  # Find the right device with let's say diskX
 	  diskutil list
 	  
-	  # Unmount with diskutil unmountDisk diskX.
-	  Burn with: sudo dd if=path_to_nixos.iso of=/dev/disk
+	  # Unmount with 
+	  diskutil unmountDisk diskX.
+	  
+	  # Burn with: 
+	  sudo dd if=path_to_nixos.iso of=/dev/disk
 	  ```
 - ## Language
 -
