@@ -1,6 +1,10 @@
 ## Install
 - Create bootable disk on [[Mac]]
-	-
+	- Download from https://nixos.org/download/#nixos-iso
+	- ```
+	  diskutil list
+	  
+	  ```
 - ## Language
 -
 - `let ... in ...` similar to _local variables_ - name `a` can be used in the `in` expression
