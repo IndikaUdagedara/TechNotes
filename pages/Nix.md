@@ -1,4 +1,7 @@
-## Language
+## Install
+- Create bootable disk on [[Mac]]
+	-
+- ## Language
 -
 - `let ... in ...` similar to _local variables_ - name `a` can be used in the `in` expression
   ```
