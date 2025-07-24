@@ -14,8 +14,9 @@
 			  ```
 	- ### CLI
 		- Build with flake
-		  `sudo nixos-rebuild switch --flake .`
-		- Build without flake ``
+			- `sudo nixos-rebuild switch --flake .`
+		- Build without flake (which uses using configuration in `/etc/nixos/configuration.nix`)
+			- `sudo nixos-rebuild switch`
 		- Remove old generations 
 		  ```
 		  sudo nix-collect-garbage -d
