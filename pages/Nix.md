@@ -13,7 +13,13 @@
 			  sudo dd if=path_to_nixos.iso of=/dev/disk
 			  ```
 	- ### CLI
-		- `sudo nixos-rebuild switch --flake `
+		- Build with flake
+		  `sudo nixos-rebuild switch --flake .`
+		- Build without flake ``
+		- Remove old generations 
+		  ```
+		  sudo nix-collect-garbage -d
+		  ```
 		-
 - ## Language
 -
