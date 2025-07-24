@@ -124,8 +124,9 @@
 	- build a package `nix build`
 - Flakes use new nix CLI `nix xxx` not `nix-xxx`
 - With flakes, `NIX_PATH` becomes irrelevant as the flake defines the `nixpkgs`
-- $ echo $NIX_PATH
+- ```$ echo $NIX_PATH
   nixpkgs=flake:nixpkgs:/nix/var/nix/profiles/per-user/root/channels
+  ```
 - Minimal flake referencing another flake
 	- Add other flake to registry under name `local`
 		- `nix registry add local ~/Nix`
