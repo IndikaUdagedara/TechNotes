@@ -1,4 +1,5 @@
-## Install
+## NixOS
+- ### Install
 - Create bootable disk on [[Mac]]
 	- Download from https://nixos.org/download/#nixos-iso
 	- ```
