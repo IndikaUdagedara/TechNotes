@@ -201,6 +201,8 @@
       ```
     - Run `nix build`
 - ## CLI
+- Find package in nix-store
+  `nix-store -q $(nix-instantiate '<nixpkgs>' -A nvim`)
 - Build package
   `nix-build -E 'with import <nixpkgs> {}; callPackage ./package.nix {}'`
 - Install from nixhub
