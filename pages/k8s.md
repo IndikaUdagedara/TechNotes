@@ -83,8 +83,8 @@
 		- ![Exported image 20241121214723-1.png](../assets/Exported_image_20241121214723-1_1734438335111_0.png)
 	- **Node**
 		- Kubelet
+			- interacts with API server
 		- Container Engine (e.g. docker)
 		- kube-proxy
 			- assigns IP per pod
-				- Load balances across pods in a service
-	- kubectl interacts with API server
+		  - Load balances across pods in a service
