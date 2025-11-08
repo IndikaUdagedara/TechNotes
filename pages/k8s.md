@@ -143,13 +143,13 @@
 	- ![Exported image 20241121214724-2.png](../assets/Exported_image_20241121214724-2_1734438237918_0.png){:height 358, :width 748}
 	- ![Exported image 20241121214720-0.png](../assets/Exported_image_20241121214720-0_1734438266735_0.png)
 	-
-	- **Master**
+	- **Master** node
 		- API server
 		- KV store (etcd)
 		- kube-scheduler
 		- controller-manager
-		- ![Exported image 20241121214723-1.png](../assets/Exported_image_20241121214723-1_1734438335111_0.png)
-	- **Node**
+		-
+	- **Worker** node
 		- Kubelet
 			- interacts with API server
 		- Container Engine (e.g. docker)
