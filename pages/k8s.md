@@ -157,4 +157,4 @@
 			- manages communications between pods
 			- assigns IP per pod
 		  - Load balances across pods in a service
-	-
+			- Load balances across pods in a service
