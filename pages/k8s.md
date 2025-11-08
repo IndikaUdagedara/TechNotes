@@ -154,5 +154,6 @@
 			- interacts with API server
 		- Container Engine (e.g. docker)
 		- kube-proxy
+			- manages communications between pods
 			- assigns IP per pod
 		  - Load balances across pods in a service
