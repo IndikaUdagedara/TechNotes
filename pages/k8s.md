@@ -81,10 +81,10 @@
 		- kube-scheduler
 		- controller-manager
 		- ![Exported image 20241121214723-1.png](../assets/Exported_image_20241121214723-1_1734438335111_0.png)
-	- Node
-		- Node = Kubectl + Container Engine (e.g. docker) + kube proxy
-		  Node = runs multiple pods
-	- Kube-proxy
-		- assigns IP per pod
-		- Load balances across pods in a service
+	- **Node**
+		- Kubelet
+		- Container Engine (e.g. docker)
+		- kube-proxy
+			- assigns IP per pod
+				- Load balances across pods in a service
 	- kubectl interacts with API server
