@@ -142,9 +142,7 @@
 		  [https://istio.io/latest/docs/tasks/traffic-management/ingress/secure-ingress/](https://istio.io/latest/docs/tasks/traffic-management/ingress/secure-ingress/)
 -
 - ## Overview
-	- ![Exported image 20241121214724-2.png](../assets/Exported_image_20241121214724-2_1734438237918_0.png){:height 358, :width 748}
-	- ![Exported image 20241121214720-0.png](../assets/Exported_image_20241121214720-0_1734438266735_0.png)
-	-
+	- ![2025-11-24_20-04.png](../assets/2025-11-24_20-04_1763975142462_0.png)
 	- **Master** node contains
 		- API server
 		- KV store (etcd)
