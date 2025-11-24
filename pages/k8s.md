@@ -71,6 +71,8 @@
   [https://istio.io/latest/docs/ops/configuration/traffic-management/tls-configuration/](https://istio.io/latest/docs/ops/configuration/traffic-management/tls-configuration/)
 - Example:  
   [https://istio.io/latest/docs/tasks/traffic-management/ingress/secure-ingress/](https://istio.io/latest/docs/tasks/traffic-management/ingress/secure-ingress/)
+=======
+>>>>>>> 883edd6 (Auto saved by Logseq)
 	- kubectl
 		- configuration
 			- Context ->  cluster -> namespace -> user
