@@ -154,7 +154,7 @@
 	- **Worker** node contains
 		- Kubelet
 			- interacts with API server
-		- Container Engine (e.g. docker)
+		- Container Engine (e.g. `containerd`)
 		- kube-proxy
 			- manages communications between pods
 			- assigns IP per pod
