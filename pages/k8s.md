@@ -160,3 +160,4 @@
 			- assigns IP per pod
 		  - Load balances across pods in a service
 			- Load balances across pods in a service
+	- ![2025-11-24_20-04.png](../assets/2025-11-24_20-04_1763975142462_0.png)
