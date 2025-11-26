@@ -272,8 +272,6 @@
 	  }
 	  ```
 	- Run `nix build`
--
->>>>>>> 5108a30 (Auto saved by Logseq)
 - ## CLI
 - Find package in nix-store
   `nix-store -q $(nix-instantiate '<nixpkgs>' -A nvim`)
