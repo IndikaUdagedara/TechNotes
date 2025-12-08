@@ -71,7 +71,7 @@
       "containerId": "cuS1F1MovgWqy7p03zwCd",
       "originalText": "Azure",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 18
     },
     {
       "type": "rectangle",
@@ -141,7 +141,7 @@
       "containerId": "ri3W8qN92M-rErmkPKR5n",
       "originalText": "Office 365",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 43
     },
     {
       "type": "rectangle",
@@ -211,12 +211,12 @@
       "containerId": "GUMrN7NcrRmEsDgz2Qvs1",
       "originalText": "Dynamics 365",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 43
     },
     {
       "type": "text",
-      "version": 333,
-      "versionNonce": 367031640,
+      "version": 332,
+      "versionNonce": 2118602181,
       "isDeleted": false,
       "id": "NADfEf1u1hOBts5iT4k8S",
       "fillStyle": "hachure",
@@ -229,14 +229,14 @@
       "y": 317.90625,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 201.2397918701172,
+      "width": 201.2398223876953,
       "height": 25,
       "seed": 1187343407,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1765188033588,
+      "updated": 1737685919780,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -321,7 +321,7 @@
       "containerId": "I9h_OOD4MWtYgRzrXCyfp",
       "originalText": "Entra ID",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 43
     },
     {
       "type": "rectangle",
@@ -411,8 +411,8 @@
     },
     {
       "type": "text",
-      "version": 599,
-      "versionNonce": 244198440,
+      "version": 598,
+      "versionNonce": 936911563,
       "isDeleted": false,
       "id": "HJbUZlniax0mekL_owjuy",
       "fillStyle": "hachure",
@@ -425,14 +425,14 @@
       "y": 286.4559556267259,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
-      "width": 312.95538330078125,
+      "width": 313.07000732421875,
       "height": 25.40266485944585,
       "seed": 262827983,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1765188033588,
+      "updated": 1738014767980,
       "link": null,
       "locked": false,
       "fontSize": 20.32213188755668,
@@ -443,7 +443,7 @@
       "containerId": null,
       "originalText": "Single directory for all services",
       "lineHeight": 1.25,
-      "baseline": 17
+      "baseline": 18
     }
   ],
   "appState": {
