@@ -2937,7 +2937,7 @@
       "containerId": null,
       "originalText": "Symbol close to entity 2 defines cardinality of entity 1 in relation to entity 2",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 20
     },
     {
       "type": "text",
