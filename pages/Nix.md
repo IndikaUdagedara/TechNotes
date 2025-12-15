@@ -1,28 +1,27 @@
 ## NixOS
-
-    - ### Install
-    	- Create bootable disk on [[Mac]]
-    		- Download from https://nixos.org/download/#nixos-iso
-    		- ```
-    		  # Find the right device with let's say diskX
-    		  diskutil list
-
-    		  # Unmount with
-    		  diskutil unmountDisk diskX.
-
-    		  # Burn with:
-    		  sudo dd if=path_to_nixos.iso of=/dev/disk
-    		  ```
-    - ### CLI
-    	- Build with flake
-    		- `sudo nixos-rebuild switch --flake .`
-    	- Build without flake (which uses using configuration in `/etc/nixos/configuration.nix`)
-    		- `sudo nixos-rebuild switch`
-    	- Remove old generations
-    	  ```
-    	  sudo nix-collect-garbage -d
-    	  ```
-
+	- ### Install
+		- Create bootable disk on [[Mac]]
+			- Download from https://nixos.org/download/#nixos-iso
+			- ```bash
+			  # Find the right device with let's say diskX
+			  diskutil list
+			  
+			  # Unmount with 
+			  diskutil unmountDisk diskX.
+			  
+			  # Burn with: 
+			  sudo dd if=path_to_nixos.iso of=/dev/disk
+			  ```
+	- ### CLI
+		- Build with flake
+			- `sudo nixos-rebuild switch --flake .`
+		- Build without flake (which uses using configuration in `/etc/nixos/configuration.nix`)
+			- `sudo nixos-rebuild switch`
+		- Remove old generations 
+		  ```
+		  sudo nix-collect-garbage -d
+		  ```
+		-
 - ## Language
 - `let ... in ...` similar to _local variables_ - name `a` can be used in the
   `in` expression
