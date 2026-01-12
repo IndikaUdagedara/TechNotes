@@ -1,2 +1,1 @@
-- Copy visual selection to clip board 
-  `"*y` : copy to `*` register
+- Copy visual selection to clip board `"*y` : copy to `*` register

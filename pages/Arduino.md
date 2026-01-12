@@ -1,9 +1,7 @@
 - ![The Most Complete Starter Kit for MEGA V1.0.2021.05.13.pdf](../assets/The_Most_Complete_Starter_Kit_for_MEGA_V1.0.2021.05.13_1735955218038_0.pdf)
 - Libraries
-	- ((677893d8-cd8b-4c04-adf9-c8e4eadeabf1))
+  - ((677893d8-cd8b-4c04-adf9-c8e4eadeabf1))
 - Built-in LED ((67789c83-3af5-4da6-860f-7ac71780046c))
 - Resistor colour codes
-	- ((67789ecd-f15c-4bf1-95f1-084056ca7ea8))
-	-
+  - ((67789ecd-f15c-4bf1-95f1-084056ca7ea8))
 - PWM ((6778a9f0-c05d-4193-a818-ec29bd1b8601))
--

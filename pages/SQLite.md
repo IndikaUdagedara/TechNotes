@@ -4,13 +4,12 @@
   -- unixepoch('subsec') - return current UTC time to sub second resolution
   ```
 - open database
-	- `sqlite3 <filename>`
+  - `sqlite3 <filename>`
 - show schema
-	- ```
-	  # list all tables
-	  > .tables 
-	  
-	   # schema of table
-	  > .schema <table-name>
-	  ```
--
+  - ```
+    # list all tables
+    > .tables
+
+     # schema of table
+    > .schema <table-name>
+    ```

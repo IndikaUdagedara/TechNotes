@@ -1,12 +1,10 @@
 - LSP config
-	- add tool to [[Nix]]
-	- add relevant LS setup function to `plugins/lsp.lua` e.g., `require('lspconfig').nixd.setup({})`
-	- Go to definition needs to use lsp functions - default `gd` won't work
-		- https://github.com/catgoose/nvim/blob/main/lua/config/lsp/autocmd.lua
-		- https://www.reddit.com/r/neovim/comments/1616ac0/how_do_i_jump_to_definitions_in_another_file/
-		- https://stackoverflow.com/questions/73858788/neovim-goto-definition
-	- [[.net]]
-		- https://github.com/dbittencourt/dotfiles/blob/main/nvim/.config/nvim/lua/plugins/completion.lua
-	-
--
--
+  - add tool to [[Nix]]
+  - add relevant LS setup function to `plugins/lsp.lua` e.g.,
+    `require('lspconfig').nixd.setup({})`
+  - Go to definition needs to use lsp functions - default `gd` won't work
+    - https://github.com/catgoose/nvim/blob/main/lua/config/lsp/autocmd.lua
+    - https://www.reddit.com/r/neovim/comments/1616ac0/how_do_i_jump_to_definitions_in_another_file/
+    - https://stackoverflow.com/questions/73858788/neovim-goto-definition
+  - [[.net]]
+    - https://github.com/dbittencourt/dotfiles/blob/main/nvim/.config/nvim/lua/plugins/completion.lua
