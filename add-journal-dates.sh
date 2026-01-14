@@ -27,6 +27,12 @@ find "$BASE_DIR" -type f -path "*/journal/*.md" -name "[0-9][0-9][0-9][0-9]-[0-9
         # Check if first line already has the date heading
         if [[ "$first_line" =~ ^#[[:space:]]+.*$date.* ]] || [[ "$first_line" =~ ^#[[:space:]]+$formatted_date ]]; then
             echo "Skipping $file (already has date heading)"
+            # Check if file only contains the heading (and maybe blank lines)
+            content=$(grep -v "^#[[:space:]]*$formatted_date" "$file" | grep -v "^#[[:space:]]*.*$date.*" | grep -v "^[[:space:]]*$" || true)
+            if [ -z "$content" ]; then
+                rm "$file"
+                echo "Removed $file (no content other than date heading)"
+            fi
             continue
         fi
         
@@ -40,10 +46,18 @@ find "$BASE_DIR" -type f -path "*/journal/*.md" -name "[0-9][0-9][0-9][0-9]-[0-9
         mv "$temp_file" "$file"
         echo "Added date heading to $file"
     else
-        # File is empty, just add the heading
-        echo "# $formatted_date" > "$file"
-        echo ""
-        echo "Added date heading to empty file $file"
+        # File is empty, remove it
+        rm "$file"
+        echo "Removed empty file $file"
+    fi
+    
+    # After processing, check if file only has the heading (and maybe blank lines)
+    if [ -f "$file" ]; then
+        content=$(grep -v "^#[[:space:]]*$formatted_date" "$file" | grep -v "^#[[:space:]]*.*$date.*" | grep -v "^[[:space:]]*$" || true)
+        if [ -z "$content" ]; then
+            rm "$file"
+            echo "Removed $file (no content other than date heading)"
+        fi
     fi
 done
 
