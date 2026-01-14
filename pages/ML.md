@@ -1,20 +1,20 @@
+# ML
+
 ## Search
 
-## ML
+- Go from Node A to Node B in a graph
+   ![node a data structure that keeps track of - a state - a parent (node that generated this node) - an action (action applied to parent to get node) - a path cost (from initial state to node) ](../assets/Exported_image_20241121214047-0.png)
+- Action(node) -> new node
+- Algorithm:
+   ![Revised Approach • Start with a frontier that contains the initial state. • Start with an empty explored set. • Repeat: he frontier is empty, then no solution. Ret-nove a node from the frontier. • If node contains goal state. return the solution. • Add the node to the explored set. • Expand node. add resulting nodes to the frontier if they aren't already in the frontier Or the explored set. ](../assets/Exported_image_20241121214052-1.png)
 
-    - Go from Node A to Node B in a graph
-       ![node a data structure that keeps track of - a state - a parent (node that generated this node) - an action (action applied to parent to get node) - a path cost (from initial state to node) ](../assets/Exported_image_20241121214047-0.png)
-    - Action(node) -> new node
-    - Algorithm:
-       ![Revised Approach • Start with a frontier that contains the initial state. • Start with an empty explored set. • Repeat: he frontier is empty, then no solution. Ret-nove a node from the frontier. • If node contains goal state. return the solution. • Add the node to the explored set. • Expand node. add resulting nodes to the frontier if they aren't already in the frontier Or the explored set. ](../assets/Exported_image_20241121214052-1.png)
-
-      1. Start with the Frontier containing initial Node - type of Frontier determines search algorithm
-      2. Select 1 from the Frontier (Queue or Stack frontier will behave differently)
-      3. If selected Node == goal -> END
-      4. Else Explore (apply Action to Node) selected node and
-    	- 1. Add new Nodes to frontier
-    	- 2. Add node to Explored set
-    - 5. Repeat 2
+  1. Start with the Frontier containing initial Node - type of Frontier determines search algorithm
+  2. Select 1 from the Frontier (Queue or Stack frontier will behave differently)
+  3. If selected Node == goal -> END
+  4. Else Explore (apply Action to Node) selected node and
+	- 1. Add new Nodes to frontier
+	- 2. Add node to Explored set
+- 5. Repeat 2
 
 - Search Algorithms:
   - Breadth first search (explore siblings before traversing a branch,
