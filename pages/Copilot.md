@@ -1,0 +1,1 @@
+skills are in ~/.config/copilot/skills
