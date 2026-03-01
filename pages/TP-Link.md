@@ -4,6 +4,8 @@
 
 Source: https://www.tp-link.com/au/support/faq/1794/
 
+![](../assets/2026-03-01T06-26-40-047Z.png)
+
 ### What is Ethernet Backhaul?
 Wires Deco units together via Ethernet cable. Data travels over the wired link (more stable and faster than Wi-Fi); Wi-Fi backhaul disconnects automatically once Ethernet backhaul is established.
 
