@@ -194,3 +194,32 @@ git log --name-only
 ## GitLab Flow
 
 ![GitLab_Flow.png](../assets/GitLab_Flow.png)
+
+## Git Worktrees - Clean Multi-Branch Setup
+
+Use a bare clone as the hub with worktrees as siblings inside one top-level folder:
+
+```
+my-project/
+├── .bare/          ← bare git repo (no working files, just git data)
+├── main/           ← worktree for main branch
+├── feature-auth/   ← worktree for feature/auth branch
+└── hotfix-login/   ← worktree for hotfix/login branch
+```
+
+```bash
+mkdir my-project && cd my-project
+
+# Clone as bare into .bare/
+git clone --bare https://github.com/you/repo.git .bare
+
+# Tell git where to find the repo
+echo "gitdir: ./.bare" > .git
+
+# Add worktrees for branches you want to work on
+git worktree add main main
+git worktree add feature-auth feature/auth
+git worktree add -b hotfix-login hotfix/login main  # new branch from main
+```
+
+The `.git` file (not folder) tricks tools like `gh`, `git` CLI, and editors into recognising `my-project/` as a git repo. Each subdirectory is a fully independent working tree — open them in separate editor windows or terminals simultaneously. You cannot check out the same branch in two worktrees at the same time.

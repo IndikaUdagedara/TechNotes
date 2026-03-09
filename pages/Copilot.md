@@ -33,54 +33,39 @@ https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-co
 
 https://learn.microsoft.com/en-us/training/modules/introduction-to-github-copilot/2-github-copilot-your-ai-pair-programmer
 
-### GitHub Copilot Free
-- 2000 code completions per month
-- 50 chat requests per month
-- Access to advanced AI models (GPT-4o and Claude 3.5 Sonnet)
-- Code completions in supported editors
-
-### GitHub Copilot Pro
-- Unlimited code completions and chat requests
-- Priority access to latest AI models
-- Advanced code suggestions and explanations
-- Integration with supported IDEs (VS Code, Visual Studio, JetBrains, Neovim)
-- Automated test generation and code explanation features
-
-### GitHub Copilot Pro+
-- All Pro features
-- Additional premium request capacity
-- Priority infrastructure access
-
-### GitHub Copilot Business
-- All Pro and Pro+ features for organization members
-- Centralized management and policy controls
-- Security vulnerability filtering
-- Code referencing and public code filtering
-- Chat in IDE and mobile
-- IP indemnity and enterprise-grade security, safety, privacy
-
-### GitHub Copilot Enterprise
-- All Business features
-- Personalized code suggestions based on internal/private code
-- Integration with GitHub Enterprise Cloud
-- AI-powered search and documentation generation across codebase
-- Enhanced PR support with AI-powered tags and summaries
-- Organization-wide customization and fine-tuning of Copilot models
-- Deep integration with GitHub for chat and codebase exploration
+| Feature | Free | Pro | Pro+ | Business | Enterprise |
+|---|---|---|---|---|---|
+| Code completions | 2,000/month | Unlimited | Unlimited | Unlimited | Unlimited |
+| Chat requests | 50/month | Unlimited | Unlimited | Unlimited | Unlimited |
+| Advanced AI models (GPT-4o, Claude 3.5 Sonnet) | ✓ | ✓ | ✓ | ✓ | ✓ |
+| IDE integration (VS Code, Visual Studio, JetBrains, Neovim) | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Advanced code suggestions & explanations | | ✓ | ✓ | ✓ | ✓ |
+| Automated test generation | | ✓ | ✓ | ✓ | ✓ |
+| Priority access to latest models | | ✓ | ✓ | ✓ | ✓ |
+| Priority infrastructure access | | | ✓ | ✓ | ✓ |
+| Centralized management & policy controls | | | | ✓ | ✓ |
+| Security vulnerability filtering | | | | ✓ | ✓ |
+| Public code filtering | | | | ✓ | ✓ |
+| Chat in IDE and mobile | | | | ✓ | ✓ |
+| IP indemnity & enterprise-grade security | | | | ✓ | ✓ |
+| Personalized suggestions from private codebase | | | | | ✓ |
+| GitHub Enterprise Cloud integration | | | | | ✓ |
+| AI-powered search & documentation generation | | | | | ✓ |
+| Enhanced PR support (AI tags & summaries) | | | | | ✓ |
+| Org-wide customization & model fine-tuning | | | | | ✓ |
 
 
 ## Code generation flow
 
-Editor -> Proxy -> Toxicity filter -> LLM
+Editor → Proxy → Toxicity filter → LLM
 
-Proxy: detect prompt injection
+­Proxy: detect prompt injection
 Toxicity filter: Remove inappropriate content and personal data
 
 Generated code follows the same path in reverse.
 
 
 It uses feedback to improve the model
-
 
 ## Prompt Engineering Techniques
 
