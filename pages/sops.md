@@ -71,3 +71,9 @@ sops updatekeys secrets/llm.yml
 ```
 
 Any one of the listed recipients can decrypt. Both `ssh-rsa` and `ssh-ed25519` keys are supported.
+
+## Important: Secret recovery risk
+
+Since decryption depends entirely on your SSH private keys, **if you lose access to all private keys across all machines, the secrets are permanently unrecoverable.**
+
+Only store secrets in sops that you can regenerate or rotate (e.g., API keys you can revoke and reissue). Do not store one-time codes, recovery keys, or anything irreplaceable.
