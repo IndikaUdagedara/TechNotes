@@ -207,6 +207,7 @@ my-project/
 └── hotfix-login/   ← worktree for hotfix/login branch
 ```
 
+
 ```bash
 mkdir my-project && cd my-project
 
