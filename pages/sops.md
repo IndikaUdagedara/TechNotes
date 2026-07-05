@@ -1,79 +1,87 @@
 # sops
 
-## Encrypting secrets with sops + age (SSH RSA key)
+## Concepts
+SOPS works with 
+- a sops configuration file (`.sops.yaml`) and
+- an encrypted secret file  (_sops file_ e.g., `secrets/example.yaml`)
 
-### Prerequisites
-- `sops` and `age` in packages (nixpkgs)
-- Existing `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub`
+`.sops.yaml` contains instructions to sops on who should be able to decrypt the secrets and which secret file names are to be considered.
 
-### Setup
-
-**1. Add sops-nix to flake inputs**
-```nix
-sops-nix = {
-  url = "github:Mic92/sops-nix";
-  inputs.nixpkgs.follows = "nixpkgs";
-};
-```
-
-**2. Create `.sops.yaml` in repo root**
+E.g., 
 ```yaml
 keys:
-  - &my_key ssh-rsa AAAA...user@host
+  - &indika_mediaserver age...k1
+  - &indika_thinkpad age...k2
 
 creation_rules:
   - path_regex: secrets/.*\.yml$
     key_groups:
       - age:
-          - *my_key
-```
-- age accepts `ssh-rsa` public keys directly as recipients (no conversion needed)
-- RSA keys are supported; ed25519 is also supported
-
-**3. Create and encrypt a secrets file**
-```bash
-# Delete any empty placeholder file first — sops errors on empty files with no metadata
-rm secrets/llm.yml
-sops secrets/llm.yml  # opens editor; save to encrypt
-```
-
-**4. Decrypt / verify**
-```bash
-sops -d secrets/llm.yml
-```
-sops auto-discovers `~/.ssh/id_rsa` as the identity for decryption.
-
-### Gotchas
-- If the file exists but is empty, sops gives "sops metadata not found" — delete and recreate
-- `ssh-to-age` does NOT support RSA keys (ed25519 only) — but that tool is not needed when using SSH keys directly with age/sops
-- The `keys:` block in `.sops.yaml` is optional metadata; the required part is `creation_rules`
-
-## Decrypting on multiple hosts
-
-Add each host's SSH public key as a recipient in `.sops.yaml`, then re-encrypt.
-
-```yaml
-keys:
-  - &indika_thinkpad ssh-rsa AAAA...indika@thinkpad
-  - &indika_otherhost ssh-ed25519 AAAA...indika@otherhost
-
-creation_rules:
-  - path_regex: secrets/.*\.yml$
-    key_groups:
-      - age:
+          - *indika_mediaserver
           - *indika_thinkpad
-          - *indika_otherhost
 ```
 
-Re-wrap existing secrets to include the new recipient (no need to re-enter values):
-```bash
-sops updatekeys secrets/llm.yml
+sops will use it to encrypt/decrypt files matching the patterns under `creation_rules`. According to the example, it will look at `secrets/*.yml` and allow secrets to be encrypted for 2 keys.
+
+
+## Usage with sops-nix
+
+  1. Generate age keypair (on each host)
+```
+   sudo mkdir -p /var/lib/sops-nix
+   sudo age-keygen -o /var/lib/sops-nix/key.txt
+   sudo chmod 600 /var/lib/sops-nix/key.txt
+   # Note the public key printed: age1xxxxxxxxx...
 ```
 
-Any one of the listed recipients can decrypt. Both `ssh-rsa` and `ssh-ed25519` keys are supported.
+  2. NixOS config (thinkpad & mediaserver)
+```
+   imports = [ inputs.sops-nix.nixosModules.sops ];
+   
+   sops.age.keyFile = "/var/lib/sops-nix/key.txt";
 
-## Important: Secret recovery risk
+   # use default sops file or sops file per secret
+   # sops.defaultSopsFile = secrets/example.yaml;
 
-Since decryption depends entirely on your SSH private keys, **if you lose access to all private keys across all machines, the secrets are permanently unrecoverable.**
+   # declare secret
+   sops.secrets."my-secrets" = {
+      format = "yaml"
+      sopsFile = "secrets/example.yaml;
+   }
+   
+   # this is the unencrypted secret file added to /run/secrets/my-secrets
+   # config.sops.secrets."my-secrets".path;
 
-Only store secrets in sops that you can regenerate or rotate (e.g., API keys you can revoke and reissue). Do not store one-time codes, recovery keys, or anything irreplaceable.
+   # Use in a service:
+   services.myapp.environmentFile = config.sops.secrets."my-secrets".path;
+   
+```
+  3. .sops.yaml in repo root
+```
+   keys:
+     - &thinkpad    age1abc...
+     - &mediaserver age1def...
+     - &admin       age1xyz...   # recovery key — always include this
+   
+   creation_rules:
+     - path_regex: secrets/*\.yaml$
+       key_groups:
+         - age: [*admin, *thinkpad, *mediaserver]
+```
+
+  4. Create/edit secrets
+
+```
+   sops secrets/my-secret.yaml       # opens editor, saves encrypted
+   sops -d secrets/my-secret.yaml    # decrypt to stdout
+```
+
+  5. Recovery after VM rebuild
+```
+   # Restore admin key from Bitwarden
+   sudo chmod 600 /var/lib/sops-nix/key.txt
+   
+   nixos-rebuild switch --flake .#hostname
+```
+
+  *Golden rule*: The admin key (Bitwarden) must always be a recipient in every secret — it's the only recovery path if a host key is lost.
