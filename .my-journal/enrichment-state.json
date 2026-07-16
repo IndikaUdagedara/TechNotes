@@ -1,5 +1,18 @@
 {
-  "maintainer": null,
-  "processed": {},
+  "maintainer": {
+    "command_hash": "3ea125d0bff3",
+    "contract_version": 2,
+    "name": "copilot-cli"
+  },
+  "processed": {
+    "75ffb977be85": {
+      "concepts": [
+        "nix",
+        "linux"
+      ],
+      "entry_id": "75ffb977be85",
+      "processed_at": "2026-07-16T15:01:53.809769+10:00"
+    }
+  },
   "version": 1
 }
