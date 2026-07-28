@@ -24,36 +24,6 @@ Create bootable disk on Mac
   - ```
     sudo nix-collect-garbage -d
     ```
-
-### ALSA Mixer Persistence
-
-To persist ALSA mixer settings (e.g., Capture volume, Mic Boost) across reboots, enable ALSA persistence in your host config:
-
-```nix
-# hosts/thinkpad/default.nix (or similar)
-{
-  hardware.alsa.enablePersistence = true;
-}
-```
-
-This option:
-- Installs an `alsa-store` systemd service that restores `/var/lib/alsa/asound.state` on boot and saves it on shutdown
-- Adds a udev rule for hotplug devices
-- Is independent of `hardware.alsa.enable` and does **not** disable PipeWire
-
-After adding the option:
-```bash
-# Capture current mixer state
-sudo alsactl store
-
-# Rebuild to enable the service
-sudo nixos-rebuild switch
-```
-
-See [linux](linux.md#troubleshooting-internal-microphone) for diagnosing mic issues with `amixer`.
-
-*Entry: [../raw/2026-07-16.md#75ffb977be85](../raw/2026-07-16.md#75ffb977be85)*
-
 ## Language
 
 - **`let ... in ...`** - Similar to _local variables_. Name `a` can be used in the `in` expression:
@@ -239,6 +209,38 @@ Create a flake:
 ```
 
 Then run `nix build`
+
+## home-manager
+
+### Pushing builds to Cachix
+
+Cachix is a binary cache service for Nix. To push home-manager builds ([raw entry](../raw/2026-07-28.md#e9dc70e0ea68)):
+
+1. **Authenticate** (one-time setup):
+   ```bash
+   cachix authtoken <token>
+   # or
+   export CACHIX_AUTH_TOKEN=<token>
+   ```
+
+2. **Build and push** (replace `<cache>` with your cache name and `<config>` with your flake attribute):
+   ```bash
+   nix build .#homeConfigurations."<config>".activationPackage --json \
+     | jq -r '.[].outputs.out' \
+     | cachix push <cache>
+   ```
+
+3. **Alternative using home-manager CLI**:
+   ```bash
+   home-manager build --flake .#<config>
+   cachix push <cache> ./result
+   ```
+
+4. **Auto-push while building** (watches the store and pushes new paths):
+   ```bash
+   cachix watch-store <cache> &
+   home-manager switch --flake .#<config>
+   ```
 
 ## CLI
 
