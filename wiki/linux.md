@@ -40,4 +40,4 @@ See [nix](nix.md#alsa-mixer-persistence) for persisting these settings across re
 
 ---
 
-*Entry: [../raw/2026-07-16.md#75ffb977be85](../raw/2026-07-16.md#75ffb977be85)*
+*Entry: [../raw/2026-07-16.md#75ffb977be85](../raw/2026-07-16.md)*

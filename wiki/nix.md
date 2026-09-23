@@ -214,7 +214,7 @@ Then run `nix build`
 
 ### Pushing builds to Cachix
 
-Cachix is a binary cache service for Nix. To push home-manager builds ([raw entry](../raw/2026-07-28.md#e9dc70e0ea68)):
+Cachix is a binary cache service for Nix. To push home-manager builds ([raw entry](../raw/2026-07-28.md)):
 
 1. **Authenticate** (one-time setup):
    ```bash
