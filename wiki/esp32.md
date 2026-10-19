@@ -20,9 +20,9 @@ Baishun 18650 battery shield, 2-cell variant (1WAY/2WAY/4WAY exist). Bought on [
 - Back: boost converter (1R0 inductor), QFN controller (U2), SOT-223 regulator that looks like an AMS1117 (U1), K1 switch footprint, empty J4 2-pin footprint
 - Not stated: charge current, cell protection, whether cells are in parallel
 
-![Dimensions](../assets/18650-shield-v8-2way-dimensions.jpg)
-![Back](../assets/18650-shield-v8-2way-back.jpg)
-![Variants](../assets/18650-shield-v8-variants.jpg)
+![](../assets/2026-10-19-17-11-17.png)
+
+![](../assets/2026-10-19-17-11-52.png)
 
 ### Gotchas (from reviews)
 
